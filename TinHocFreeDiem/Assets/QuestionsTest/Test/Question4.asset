@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
+  m_Name: Question4
+  m_EditorClassIdentifier: 
+  question: "C\xE2u 4. H\xE3y ch\u1ECDn ph\u01B0\u01A1ng \xE1n gh\xE9p \u0111\xFAng.
+    Tin h\u1ECDc l\xE0 m\u1ED9t ng\xE0nh khoa h\u1ECDc v\xEC \u0111\xF3 l\xE0 ng\xE0nh."
+  answerA: "A. Ch\u1EBF t\u1EA1o m\xE1y t\xEDnh."
+  answerB: "B. Nghi\xEAn c\u1EE9u ph\u01B0\u01A1ng ph\xE1p l\u01B0u tr\u1EEF v\xE0
+    x\u1EED l\xFD th\xF4ng tin."
+  answerC: "C. S\u1EED d\u1EE5ng m\xE1y t\xEDnh trong m\u1ECDi l\u0129nh v\u1EF1c
+    ho\u1EA1t \u0111\u1ED9ng c\u1EE7a x\xE3 h\u1ED9i lo\xE0i ng\u01B0\u1EDDi."
+  answerD: "D. C\xF3 n\u1ED9i dung, m\u1EE5c ti\xEAu, ph\u01B0\u01A1ng ph\xE1p nghi\xEAn
+    c\u1EE9u ri\xEAng."
+  correctAnswer: 3
