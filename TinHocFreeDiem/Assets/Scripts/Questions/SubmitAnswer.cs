@@ -5,9 +5,11 @@ using UnityEngine.UI;
 public class SubmitAnswer : MonoBehaviour
 {
     private UserChapters userChapter;
+    private UserTestting userTestting;
 
     [Header("Counters")]
     [SerializeField] private int thisSectionCorrectAnswer = 0;
+    [SerializeField] private int thisSectionWrongAnswer = 0;
     [SerializeField] private int thisSectionAlreadyAnswered = 0;
     [SerializeField] private int thisSectionNotAnswered = 0;
 
@@ -17,13 +19,68 @@ public class SubmitAnswer : MonoBehaviour
     [SerializeField] Image fillImage;
     [SerializeField] TextMeshProUGUI fillText;
 
+    [Header("CalculatePoints Ui")]
+    [SerializeField] TextMeshProUGUI numbersOfCorrectAnswerText;
+    [SerializeField] TextMeshProUGUI numbersOfFalseAnswerText;
+    [SerializeField] TextMeshProUGUI totalDoingTimeText;
+
+    [Header("Streak Ui")]
+    [SerializeField] TextMeshProUGUI currentStreakText;
+    [SerializeField] TextMeshProUGUI newStreakText;
+    [SerializeField] GameObject newStreakGameObject;
 
     private void Start()
     {
         userChapter = GetComponent<UserChapters>();
+        userTestting = GetComponent<UserTestting>();
     }
 
-    public void OnSubmitAnswer()
+    public void CalculateAnswers()
+    {
+        CalculateCorrectAndInCorrectAnswers();
+        TextsHandel();
+        StreakHandel();
+
+        // Add all correct answer to global varible
+        AnswerManager.instance.SetTotalCorrectAnswer(addAmmout: thisSectionCorrectAnswer);
+    }
+
+    private void StreakHandel()
+    {
+        // Get the current streak for more easy use
+        int currentStreak = AnswerManager.instance.GetCurrentStreak();
+
+        // Check if this secition correct answers > current streak
+        if (thisSectionCorrectAnswer > currentStreak)
+        {
+            // Set the new streak
+            AnswerManager.instance.SetCurrentStreak(newStreak: currentStreak);
+
+            // Set the new streak gameobject to true
+            newStreakGameObject.SetActive(true);
+
+            // Display the new streak
+            newStreakText.text = thisSectionCorrectAnswer.ToString();
+        }
+        else
+        {
+            newStreakGameObject.SetActive(false);
+        }
+    }
+
+    private void TextsHandel()
+    {
+        // Set the display of the correct / incorrect answer
+        numbersOfCorrectAnswerText.text = numbersOfCorrectAnswerText.text + " " + thisSectionCorrectAnswer.ToString();
+        numbersOfFalseAnswerText.text = numbersOfFalseAnswerText.text + " " + thisSectionWrongAnswer.ToString();
+        // Set the total time text display
+        totalDoingTimeText.text = totalDoingTimeText.text + " " + userTestting.GetPlayerDoingTestTimeString();
+
+        // Display the current streak
+        currentStreakText.text = AnswerManager.instance.GetCurrentStreak().ToString();
+    }
+
+    private void CalculateCorrectAndInCorrectAnswers()
     {
         // Loop through all the chapter
         foreach (Chapter chapter in userChapter.GetChapterList())
@@ -36,17 +93,12 @@ public class SubmitAnswer : MonoBehaviour
                     // Check how many correct answer
                     thisSectionCorrectAnswer++;
                 }
+                else
+                {
+                    thisSectionWrongAnswer++;
+                }
             }
         }
-
-        // Log the ammout of correct answer
-        Debug.Log(thisSectionCorrectAnswer);
-
-        // Add all correct answer to global varible
-        AnswerManager.instance.ChangeToTalCorrectAnswer(addAmmout: thisSectionCorrectAnswer);
-
-        //! ONLY HERE FOR DEBUG
-        UiUtilities.instance.RestartScreen();
     }
 
     public void OnClickSubmitButton()

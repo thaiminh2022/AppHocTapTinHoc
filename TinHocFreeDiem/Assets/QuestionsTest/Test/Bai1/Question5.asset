@@ -12,15 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question5
   m_EditorClassIdentifier: 
-  question: "C\xE2u 5. Ph\xE1t bi\u1EC3u n\xE0o d\u01B0\u1EDBi \u0111\xE2y l\xE0
-    sai?."
-  answerA: "A. Tin h\u1ECDc l\xE0 m\u1ED9t ng\xE0nh khoa h\u1ECDc \u0111\xE3 c\xF3
-    t\u1EEB r\u1EA5t l\xE2u v\xE0 c\xF3 t\u1ED1c \u0111\u1ED9 ph\xE1t tri\u1EC3n
-    m\u1EA1nh m\u1EBD."
-  answerB: "B. M\xE1y t\xEDnh l\xE0 c\xF4ng c\u1EE5 gi\xFAp con ng\u01B0\u1EDDi t\xEDnh
+  question: "Ph\xE1t bi\u1EC3u n\xE0o d\u01B0\u1EDBi \u0111\xE2y l\xE0 sai?."
+  answerA: "Tin h\u1ECDc l\xE0 m\u1ED9t ng\xE0nh khoa h\u1ECDc \u0111\xE3 c\xF3 t\u1EEB
+    r\u1EA5t l\xE2u v\xE0 c\xF3 t\u1ED1c \u0111\u1ED9 ph\xE1t tri\u1EC3n m\u1EA1nh
+    m\u1EBD."
+  answerB: "M\xE1y t\xEDnh l\xE0 c\xF4ng c\u1EE5 gi\xFAp con ng\u01B0\u1EDDi t\xEDnh
     to\xE1n, l\u01B0u tr\u1EEF v\xE0 x\u1EED l\xFD th\xF4ng tin."
-  answerC: "C. M\xE1y t\xEDnh c\xF3 th\u1EC3 \u201Cl\xE0m vi\u1EC7c kh\xF4ng m\u1EC7t
+  answerC: "M\xE1y t\xEDnh c\xF3 th\u1EC3 \u201Cl\xE0m vi\u1EC7c kh\xF4ng m\u1EC7t
     m\u1ECFi\u201D trong su\u1ED1t 24 gi\u1EDD/ng\xE0y."
-  answerD: "D. M\xE1y t\xEDnh \u0111\xE3 xu\u1EA5t hi\u1EC7n kh\u1EAFp n\u01A1i,
-    ch\xFAng h\u1ED7 tr\u1EE3 ho\u1EB7c thay th\u1EBF ho\xE0n to\xE0n con ng\u01B0\u1EDDi."
+  answerD: "M\xE1y t\xEDnh \u0111\xE3 xu\u1EA5t hi\u1EC7n kh\u1EAFp n\u01A1i, ch\xFAng
+    h\u1ED7 tr\u1EE3 ho\u1EB7c thay th\u1EBF ho\xE0n to\xE0n con ng\u01B0\u1EDDi."
   correctAnswer: 0

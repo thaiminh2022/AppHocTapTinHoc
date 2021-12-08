@@ -1,7 +1,9 @@
+using System;
+using System.Collections.Generic;
+
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using System;
 
 public class UserTestting : MonoBehaviour
 {
@@ -25,6 +27,9 @@ public class UserTestting : MonoBehaviour
     [SerializeField] Color chosenAnswerColor;
     [SerializeField] Color correctAnswerColor;
     [SerializeField] Color wrongAnswerColor;
+
+    [Header("Time")]
+    [SerializeField] float timeDoingTest = 0;
 
     private void Start()
     {
@@ -67,8 +72,23 @@ public class UserTestting : MonoBehaviour
 
     private void InitButtons(Chapter chapterList)
     {
-        for (int i = 0; i < chapterList.questions.Length; i++)
+        List<Question> questionsList = new List<Question>();
+
+        // Add the questions to the question List
+        foreach (var question in chapterList.questions)
         {
+            questionsList.Add(question);
+        }
+
+
+        for (int io = 0; io < chapterList.questions.Length; io++)
+        {
+            // Random index
+            int i = UnityEngine.Random.Range(0, questionsList.Count);
+            Question choosenQuestion = questionsList[i];
+            questionsList.RemoveAt(i);
+
+
             // Create a multiple choices 
             GameObject go = Instantiate(multipleChoiceTemplate, Vector3.zero, Quaternion.identity);
             go.transform.SetParent(multipleChoiceContent, false);
@@ -76,20 +96,19 @@ public class UserTestting : MonoBehaviour
             // Get the template component atached to the multiple choice template gameobject
             MultipleChoiceTemplate template = go.GetComponent<MultipleChoiceTemplate>();
 
-            // Set the self index to the current index
-            template.indexSelf = i;
+            // ! IDK ABOUT THIS: template.indexSelf = i;
 
             // Set the template question box
-            template.questionBox.text = chapterList.questions[i].multipleChoiceObject.question;
+            template.questionBox.text = $"Câu {io + 1}: " + choosenQuestion.multipleChoiceObject.question;
 
             // Set the buttons 
-            template.buttonAText.text = chapterList.questions[i].multipleChoiceObject.answerA;
-            template.buttonBText.text = chapterList.questions[i].multipleChoiceObject.answerB;
-            template.buttonCText.text = chapterList.questions[i].multipleChoiceObject.answerC;
-            template.buttonDText.text = chapterList.questions[i].multipleChoiceObject.answerD;
+            template.buttonAText.text = "A. " + choosenQuestion.multipleChoiceObject.answerA;
+            template.buttonBText.text = "B. " + choosenQuestion.multipleChoiceObject.answerB;
+            template.buttonCText.text = "C. " + choosenQuestion.multipleChoiceObject.answerC;
+            template.buttonDText.text = "D. " + choosenQuestion.multipleChoiceObject.answerD;
 
             // Current chapter list quaestion
-            Question currentQuestion = chapterList.questions[i];
+            Question currentQuestion = choosenQuestion;
 
             // Create a list of available button inside the template
             Button[] buttons = { template.buttonA, template.buttonB, template.buttonC, template.buttonD };
@@ -98,7 +117,7 @@ public class UserTestting : MonoBehaviour
             foreach (var button in buttons)
             {
                 // Check if the button is the correct answer
-                if (button.GetComponent<ChoiceButton>().answerButton == chapterList.questions[i].multipleChoiceObject.correctAnswer)
+                if (button.GetComponent<ChoiceButton>().answerButton == choosenQuestion.multipleChoiceObject.correctAnswer)
                 {
                     // Add a special onclick
                     button.onClick.AddListener(() =>
@@ -173,13 +192,13 @@ public class UserTestting : MonoBehaviour
 
     private void UpdateTimer()
     {
-        float timeText = Time.timeSinceLevelLoad * timerSpeedOffset;
+        timeDoingTest = Time.timeSinceLevelLoad * timerSpeedOffset;
         // int timeTextInt = Mathf.RoundToInt(timeText);
         string timeDisplayString = "";
 
-        TimeSpan t = TimeSpan.FromSeconds(timeText);
+        TimeSpan t = TimeSpan.FromSeconds(timeDoingTest);
 
-        if (timeText < 24 * 3600)
+        if (timeDoingTest < 24 * 3600)
         {
             timeDisplayString = t.ToString(@"hh\:mm\:ss");
         }
@@ -204,4 +223,21 @@ public class UserTestting : MonoBehaviour
                 break;
         }
     }
+
+
+    #region GetSet
+    public string GetPlayerDoingTestTimeString()
+    {
+        TimeSpan t = TimeSpan.FromSeconds(timeDoingTest);
+
+        if (timeDoingTest > 24 * 3600)
+        {
+            return t.ToString(@"dd\:hh\:mm\:ss");
+        }
+        else
+        {
+            return t.ToString(@"hh\:mm\:ss");
+        }
+    }
+    #endregion
 }
