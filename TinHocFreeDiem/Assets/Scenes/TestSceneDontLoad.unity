@@ -241,7 +241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &167476812
 RectTransform:
   m_ObjectHideFlags: 0
@@ -421,8 +421,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 115f6233ef3ca864d8b44731d725f177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scallingEntrySpeed: 0.5
-  leanTweenType: 17
+  scalingEntryTransforms:
+  - {fileID: 1623350320}
+  leenScaleStartTime: 1
+  leenTweenScaleStartType: 1
+  movingEntryTrasnforms: []
+  leanMoveStartTime: 0.3
+  leanTweenMoveStartType: 0
+  leanScaleTime: 0.3
+  leanTweenScaleType: 22
+  leanMoveTime: 0.3
+  leanTweenMoveType: 0
 --- !u!1 &1623350319
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,7 +460,7 @@ RectTransform:
   m_GameObject: {fileID: 1623350319}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6.3661, y: 6.3661, z: 6.3661}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children:
   - {fileID: 243007393}
   m_Father: {fileID: 128738368}
@@ -508,11 +517,23 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1000525849}
         m_TargetAssemblyTypeName: LeanTweenManagers, Assembly-CSharp
-        m_MethodName: ScalingEntry
+        m_MethodName: ScalingEntryOnCall
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 167476812}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1870607558}
+        m_TargetAssemblyTypeName: UiUtilities, Assembly-CSharp
+        m_MethodName: EnableGameObject
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 167476811}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -567,6 +588,7 @@ GameObject:
   - component: {fileID: 1870607557}
   - component: {fileID: 1870607556}
   - component: {fileID: 1870607555}
+  - component: {fileID: 1870607558}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -622,6 +644,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1870607558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870607554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e73816c0caca9d449b3f93a78f6f161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1993688033
 GameObject:
   m_ObjectHideFlags: 0

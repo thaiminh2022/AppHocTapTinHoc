@@ -5,3 +5,10 @@ public enum CorrectAnswer
     C,
     D,
 }
+public enum MoveDirEntry
+{
+    Top,
+    Left,
+    Right,
+    Bottom
+}
