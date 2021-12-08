@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
+using System;
 
 public class LeanTweenManagers : MonoBehaviour
 {
@@ -151,6 +153,17 @@ public class LeanTweenManagers : MonoBehaviour
     {
 
         Vector3 defaultPosition = item.objectTrasnform.localPosition;
+        CheckMoveObjectAndMove(item, defaultPosition);
+    }
+
+    private void CheckMoveObjectAndMove(movingEntryTransform item, Vector3 defaultPosition, float leanMoveTime = -1f)
+    {
+        float actualMoveTimee = 0;
+        if (leanMoveTime == -1)
+            actualMoveTimee = this.leanMoveTime;
+        else
+            actualMoveTimee = leanMoveTime;
+
 
         switch (item.moveDirEntry)
         {
@@ -164,7 +177,7 @@ public class LeanTweenManagers : MonoBehaviour
                 item.objectTrasnform.localPosition = startPositionTop;
 
                 // Lean the object 
-                item.objectTrasnform.LeanMoveLocal(defaultPosition, leanMoveTime).setEase(leanTweenMoveType);
+                item.objectTrasnform.LeanMoveLocal(defaultPosition, actualMoveTimee).setEase(leanTweenMoveType);
 
                 break;
             case MoveDirEntry.Bottom:
@@ -177,7 +190,7 @@ public class LeanTweenManagers : MonoBehaviour
                 item.objectTrasnform.localPosition = startPositionBot;
 
                 // Lean the object 
-                item.objectTrasnform.LeanMoveLocal(defaultPosition, leanMoveTime).setEase(leanTweenMoveType);
+                item.objectTrasnform.LeanMoveLocal(defaultPosition, actualMoveTimee).setEase(leanTweenMoveType);
                 break;
 
             case MoveDirEntry.Right:
@@ -191,7 +204,7 @@ public class LeanTweenManagers : MonoBehaviour
                 item.objectTrasnform.localPosition = startPositionRight;
 
                 // Lean the object 
-                item.objectTrasnform.LeanMoveLocal(defaultPosition, leanMoveTime).setEase(leanTweenMoveType);
+                item.objectTrasnform.LeanMoveLocal(defaultPosition, actualMoveTimee).setEase(leanTweenMoveType);
                 break;
             case MoveDirEntry.Left:
 
@@ -204,12 +217,13 @@ public class LeanTweenManagers : MonoBehaviour
                 item.objectTrasnform.localPosition = startPositionLeft;
 
                 // Lean the object 
-                item.objectTrasnform.LeanMoveLocal(defaultPosition, leanMoveTime).setEase(leanTweenMoveType);
+                item.objectTrasnform.LeanMoveLocal(defaultPosition, actualMoveTimee).setEase(leanTweenMoveType);
 
                 break;
 
         }
     }
+
     public void AddMovingEntryOncall(Transform thisTransform, MoveDirEntry thisMoveDirEntry, float thisMoveLength = 3000)
     {
 
@@ -221,6 +235,26 @@ public class LeanTweenManagers : MonoBehaviour
         };
 
         MovingEntryOnCall(movingEntryTransform);
+    }
+
+    private IEnumerator MovingEntryDelayOnCall(movingEntryTransform item, float delayTime, float moveTime)
+    {
+        Vector3 defaultPosition = item.objectTrasnform.localPosition;
+
+        yield return new WaitForSeconds(delayTime);
+
+        CheckMoveObjectAndMove(item, defaultPosition, moveTime);
+    }
+    public void AddMovingEntryDelayOncall(Transform thisTransform, MoveDirEntry thisMoveDirEntry, float moveTime, float thisMoveLength = 3000, float delay = .5f)
+    {
+        var movingEntryTransform = new movingEntryTransform
+        {
+            objectTrasnform = thisTransform,
+            moveDirEntry = thisMoveDirEntry,
+            moveLength = thisMoveLength,
+        };
+        StartCoroutine(MovingEntryDelayOnCall(movingEntryTransform, delay, moveTime));
+
     }
 
     #endregion
