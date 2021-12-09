@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
+  m_Name: Cau 4
+  m_EditorClassIdentifier: 
+  question: "H\xE3y cho bi\u1EBFt 1 MB  \u0111\u01B0\u1EE3c t\xEDnh b\u1EB1ng bao
+    nhi\xEAu KB: "
+  answerA: '240. '
+  answerB: '230. '
+  answerC: '220. '
+  answerD: '1024. '
+  correctAnswer: 3

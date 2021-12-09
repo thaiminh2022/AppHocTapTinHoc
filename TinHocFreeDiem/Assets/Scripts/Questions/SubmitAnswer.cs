@@ -38,13 +38,25 @@ public class SubmitAnswer : MonoBehaviour
     public void CalculateAnswers()
     {
         CalculateCorrectAndInCorrectAnswers();
-        TextsHandel();
-        StreakHandel();
+        // !TextsHandel();
+        // !StreakHandel();
+
+
 
         // Add all correct answer to global varible
         AnswerManager.instance.SetTotalCorrectAnswer(addAmmout: thisSectionCorrectAnswer);
     }
+    private void ChangeAllDisplayButtonToCorrectColor()
+    {
+        Transform target = userTestting.GetScrollContent();
 
+        var scripts = GetComponentsInChildren<MultipleChoiceTemplate>();
+
+        foreach (var script in scripts)
+        {
+            // 
+        }
+    }
     private void StreakHandel()
     {
         // Get the current streak for more easy use
@@ -80,24 +92,57 @@ public class SubmitAnswer : MonoBehaviour
         currentStreakText.text = AnswerManager.instance.GetCurrentStreak().ToString();
     }
 
+    // ! Change this
     private void CalculateCorrectAndInCorrectAnswers()
     {
-        // Loop through all the chapter
-        foreach (Chapter chapter in userChapter.GetChapterList())
+        int choosenChapter = GameManager.instance.choosenChapterIndex;
+
+
+        // Special case
+        if (choosenChapter < 0)
         {
-            // Loop through all the question
-            foreach (Question question in chapter.questions)
+            foreach (var chapter in userChapter.GetChapterList())
             {
-                if (question.AnswerIsRight == true)
+                foreach (var question in chapter.questions)
                 {
-                    // Check how many correct answer
-                    thisSectionCorrectAnswer++;
-                }
-                else
-                {
-                    thisSectionWrongAnswer++;
+                    if (question.AnswerIsRight == true)
+                    {
+                        // Check how many correct answer
+                        thisSectionCorrectAnswer++;
+                    }
+                    else
+                    {
+                        thisSectionWrongAnswer++;
+                    }
                 }
             }
+
+            return;
+        }
+
+        for (int i = 0; i < userChapter.GetChapterList().Count; i++)
+        {
+
+            if (i == choosenChapter)
+            {
+                // Loop through all the question
+                foreach (Question question in userChapter.GetChapterList()[i].questions)
+                {
+                    if (question.AnswerIsRight == true)
+                    {
+                        // Check how many correct answer
+                        thisSectionCorrectAnswer++;
+                    }
+                    else
+                    {
+                        thisSectionWrongAnswer++;
+                    }
+                }
+                break;
+            }
+
+
+
         }
     }
 
@@ -107,26 +152,60 @@ public class SubmitAnswer : MonoBehaviour
         thisSectionAlreadyAnswered = 0;
         thisSectionNotAnswered = 0;
 
-        foreach (Chapter chapter in userChapter.GetChapterList())
+        if (GameManager.instance.choosenChapterIndex < 0)
         {
-            foreach (Question question in chapter.questions)
+
+            foreach (Chapter chapter in userChapter.GetChapterList())
             {
-                // Check for question is answer ? 
-                switch (question.isChecked)
+
+                foreach (Question question in chapter.questions)
                 {
-                    case true:
-                        thisSectionAlreadyAnswered += 1;
 
-                        break;
-                    case false:
-                        thisSectionNotAnswered += 1;
-                        break;
+                    // Check for question is answer ? 
+                    switch (question.isChecked)
+                    {
+                        case true:
 
+                            thisSectionAlreadyAnswered++;
+
+                            break;
+                        case false:
+
+                            thisSectionNotAnswered += 1;
+                            break;
+
+                    }
+                }
+            }
+
+        }
+        else
+        {
+            for (int i = 0; i < userChapter.GetChapterList().Count; i++)
+            {
+
+                if (i == GameManager.instance.choosenChapterIndex)
+                {
+                    // Loop through all the question
+                    foreach (Question question in userChapter.GetChapterList()[i].questions)
+                    {
+                        switch (question.isChecked)
+                        {
+                            case true:
+                                thisSectionAlreadyAnswered += 1;
+
+                                break;
+                            case false:
+                                thisSectionNotAnswered += 1;
+                                break;
+                        }
+                    }
+                    break;
                 }
             }
         }
-
         // Set the text
+
         alreadyAnsweredText.text = "Hoàn thành :> " + thisSectionAlreadyAnswered.ToString();
         hasNotAnsweredText.text = "Chưa hoàn thành :< " + thisSectionNotAnswered.ToString();
 

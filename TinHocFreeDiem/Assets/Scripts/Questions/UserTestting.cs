@@ -20,6 +20,7 @@ public class UserTestting : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private float timerSpeedOffset = 1f;
+    [SerializeField] bool isTimerMoving = true;
 
     [Header("Colors")]
     [SerializeField] Color defaultTextColor;
@@ -33,7 +34,7 @@ public class UserTestting : MonoBehaviour
 
     private void Start()
     {
-        choosenIndex = GameManager.instance.ChoosenChapterIndex;
+        choosenIndex = GameManager.instance.choosenChapterIndex;
 
         userChapters = GetComponent<UserChapters>();
 
@@ -122,7 +123,7 @@ public class UserTestting : MonoBehaviour
                     // Add a special onclick
                     button.onClick.AddListener(() =>
                     {
-                        CorrectAnswer(currentQuestion);
+                        CorrectAnswer(currentQuestion, button);
                         ChooseAnAsnwer(button, buttons, currentQuestion);
                     });
 
@@ -131,7 +132,7 @@ public class UserTestting : MonoBehaviour
                     // Else add a wrong onclick
                     button.onClick.AddListener(() =>
                     {
-                        WrongAnswer(currentQuestion);
+                        WrongAnswer(currentQuestion, button);
                         ChooseAnAsnwer(button, buttons, currentQuestion);
                     });
             }
@@ -141,8 +142,11 @@ public class UserTestting : MonoBehaviour
     #endregion
     public void ChooseAnAsnwer(Button button, Button[] buttons, Question question)
     {
+
+
         // find the index of the curreent button
         int index = Array.FindIndex(buttons, item => item == button);
+        button.GetComponentInParent<MultipleChoiceTemplate>().correctAnswer = question.multipleChoiceObject.correctAnswer;
 
         // Loop through all the buttons ref
         for (int i = 0; i < buttons.Length; i++)
@@ -161,20 +165,28 @@ public class UserTestting : MonoBehaviour
             }
         }
 
+        // Onclick behavior
+
+
         //  Mark the question is checked
         question.isChecked = true;
     }
-    public void CorrectAnswer(Question question)
+    public void CorrectAnswer(Question question, Button button)
     {
         question.AnswerIsRight = true;
+        button.GetComponentInParent<MultipleChoiceTemplate>().isTheCorrectButton = true;
+        button.GetComponentInParent<MultipleChoiceTemplate>().displayColor = correctAnswerColor;
+
 
         // Call whenever the play answer a question correct
         userChapters.OnPlayerRight();
 
     }
-    public void WrongAnswer(Question question)
+    public void WrongAnswer(Question question, Button button)
     {
         question.AnswerIsRight = false;
+        button.GetComponentInParent<MultipleChoiceTemplate>().isTheCorrectButton = false;
+        button.GetComponentInParent<MultipleChoiceTemplate>().displayColor = wrongAnswerColor;
 
         // Call whenever the play answer a question wrong
         userChapters.OnPlayerWrong();
@@ -192,7 +204,10 @@ public class UserTestting : MonoBehaviour
 
     private void UpdateTimer()
     {
-        timeDoingTest = Time.timeSinceLevelLoad * timerSpeedOffset;
+        if (isTimerMoving == false)
+            return;
+
+        timeDoingTest += Time.deltaTime * timerSpeedOffset;
         // int timeTextInt = Mathf.RoundToInt(timeText);
         string timeDisplayString = "";
 
@@ -238,6 +253,15 @@ public class UserTestting : MonoBehaviour
         {
             return t.ToString(@"hh\:mm\:ss");
         }
+    }
+    public Transform GetScrollContent()
+    {
+        return multipleChoiceContent;
+    }
+
+    public void SetIsTimerMoving(bool isIt)
+    {
+        isTimerMoving = isIt;
     }
     #endregion
 }

@@ -23,6 +23,7 @@ public class MultipleChoiceTemplate : MonoBehaviour
     public TextMeshProUGUI buttonDText;
 
     [Header("Self")]
-    public int indexSelf;
-    public ChoiceButton[] choiceButtons;
+    public Color displayColor;
+    public CorrectAnswer correctAnswer;
+    public bool isTheCorrectButton;
 }

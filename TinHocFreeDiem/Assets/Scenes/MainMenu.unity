@@ -888,7 +888,7 @@ MonoBehaviour:
   moveTime: 0.5
   moveDelay: 0.05
   moveLength: 5000
-  leanTweenType: 16
+  leanTweenType: 13
   moveDirEntry: 2
   specialTestButton: {fileID: 1351766013}
 --- !u!20 &519420031

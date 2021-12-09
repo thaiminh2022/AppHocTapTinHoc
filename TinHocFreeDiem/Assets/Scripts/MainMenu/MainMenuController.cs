@@ -110,11 +110,11 @@ public class MainMenuController : MonoBehaviour
 
     public void ChossenChapter(int index)
     {
-        GameManager.instance.ChoosenChapterIndex = index;
+        GameManager.instance.choosenChapterIndex = index;
     }
     public void SpecialChapter()
     {
-        GameManager.instance.ChoosenChapterIndex = -1;
+        GameManager.instance.choosenChapterIndex = -1;
         UiUtilities.instance.SwitchScene(screenToSwitchTo);
     }
 

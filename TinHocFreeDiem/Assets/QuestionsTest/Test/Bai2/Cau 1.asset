@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
+  m_Name: Cau 1
+  m_EditorClassIdentifier: 
+  question: "T\u1EA1i sao ph\u1EA3i m\xE3 ho\xE1 th\xF4ng tin?                "
+  answerA: "L\xE0m cho th\xF4ng tin ph\xF9 h\u1EE3p v\u1EDBi d\u1EEF li\u1EC7u trong
+    m\xE1y. "
+  answerB: "\u0110\u1EC3 chuy\u1EC3n th\xF4n tin v\u1EC1 d\u1EA1ng c\xE2u l\u1EC7nh
+    c\u1EE7a ng\xF4n ng\u1EEF m\xE1y. "
+  answerC: "\u0110\u1EC3 thay \u0111\u1ED5i l\u01B0\u1EE3ng th\xF4ng tin.      "
+  answerD: "T\u1EA5t c\u1EA3 \u0111\u1EC1u \u0111\xFAng."
+  correctAnswer: 0

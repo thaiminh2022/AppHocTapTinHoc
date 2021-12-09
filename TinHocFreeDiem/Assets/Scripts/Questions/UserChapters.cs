@@ -12,7 +12,7 @@ public class UserChapters : MonoBehaviour
     [SerializeField] UnityEvent OnPlayerAnswerWrong;
     [SerializeField] UnityEvent OnPlayerAnswerRight;
 
-
+    [SerializeField] Color[] colorsTheme;
     private void Start()
     {
         if (chapers == null)
@@ -35,6 +35,11 @@ public class UserChapters : MonoBehaviour
     public List<Chapter> GetChapterList()
     {
         return chapers;
+    }
+    public Color ChooseRandomColor()
+    {
+        int index = Random.Range(0, colorsTheme.Length);
+        return colorsTheme[index];
     }
 
 }

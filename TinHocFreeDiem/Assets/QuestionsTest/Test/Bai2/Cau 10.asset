@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
+  m_Name: Cau 10
+  m_EditorClassIdentifier: 
+  question: "M\xE3 ho\xE1 th\xF4ng tin l\xE0 qu\xE1 tr\xECnh?"
+  answerA: "\u0110\u01B0a th\xF4ng tin v\xE0o m\xE1y t\xEDnh. "
+  answerB: "Nh\u1EADn d\u1EA1ng th\xF4ng tin. "
+  answerC: "Chuy\u1EC3n d\xE3y h\u1EC7 nh\u1ECB ph\xE2n v\u1EC1 h\u1EC7 \u0111\u1EBFm
+    kh\xE1c. "
+  answerD: "Chuy\u1EC3n th\xF4ng tin v\u1EC1 bit nh\u1ECB ph\xE2n."
+  correctAnswer: 3

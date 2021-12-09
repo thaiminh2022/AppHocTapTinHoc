@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
 
-    public int ChoosenChapterIndex;
+    public int choosenChapterIndex;
     private void Awake()
     {
         if (instance == null)
