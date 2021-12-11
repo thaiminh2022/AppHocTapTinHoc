@@ -22,12 +22,7 @@ public class SubmitAnswer : MonoBehaviour
     [Header("CalculatePoints Ui")]
     [SerializeField] TextMeshProUGUI numbersOfCorrectAnswerText;
     [SerializeField] TextMeshProUGUI numbersOfFalseAnswerText;
-    [SerializeField] TextMeshProUGUI totalDoingTimeText;
 
-    [Header("Streak Ui")]
-    [SerializeField] TextMeshProUGUI currentStreakText;
-    [SerializeField] TextMeshProUGUI newStreakText;
-    [SerializeField] GameObject newStreakGameObject;
 
     private void Start()
     {
@@ -38,11 +33,11 @@ public class SubmitAnswer : MonoBehaviour
     public void CalculateAnswers()
     {
         CalculateCorrectAndInCorrectAnswers();
-        // !TextsHandel();
-        // !StreakHandel();
+        ChangeAllDisplayButtonToCorrectColor();
+        TextsHandel();
 
 
-
+        userTestting.isViewingAnswer = true;
         // Add all correct answer to global varible
         AnswerManager.instance.SetTotalCorrectAnswer(addAmmout: thisSectionCorrectAnswer);
     }
@@ -50,49 +45,35 @@ public class SubmitAnswer : MonoBehaviour
     {
         Transform target = userTestting.GetScrollContent();
 
-        var scripts = GetComponentsInChildren<MultipleChoiceTemplate>();
+        var scripts = target.GetComponentsInChildren<MultipleChoiceTemplate>();
 
         foreach (var script in scripts)
         {
-            // 
-        }
-    }
-    private void StreakHandel()
-    {
-        // Get the current streak for more easy use
-        int currentStreak = AnswerManager.instance.GetCurrentStreak();
+            Button[] buttons = { script.buttonA, script.buttonB, script.buttonC, script.buttonD };
 
-        // Check if this secition correct answers > current streak
-        if (thisSectionCorrectAnswer > currentStreak)
-        {
-            // Set the new streak
-            AnswerManager.instance.SetCurrentStreak(newStreak: currentStreak);
-
-            // Set the new streak gameobject to true
-            newStreakGameObject.SetActive(true);
-
-            // Display the new streak
-            newStreakText.text = thisSectionCorrectAnswer.ToString();
-        }
-        else
-        {
-            newStreakGameObject.SetActive(false);
+            foreach (var button in buttons)
+            {
+                var correctAnswer = button.GetComponent<ChoiceButton>().answerButton;
+                if (script.correctAnswer == correctAnswer)
+                {
+                    button.GetComponent<Outline>().effectColor = userTestting.correctAnswerColor;
+                }
+                else
+                {
+                    button.GetComponent<Outline>().effectColor = userTestting.wrongAnswerColor;
+                }
+            }
         }
     }
 
     private void TextsHandel()
     {
         // Set the display of the correct / incorrect answer
-        numbersOfCorrectAnswerText.text = numbersOfCorrectAnswerText.text + " " + thisSectionCorrectAnswer.ToString();
-        numbersOfFalseAnswerText.text = numbersOfFalseAnswerText.text + " " + thisSectionWrongAnswer.ToString();
-        // Set the total time text display
-        totalDoingTimeText.text = totalDoingTimeText.text + " " + userTestting.GetPlayerDoingTestTimeString();
+        numbersOfCorrectAnswerText.text = thisSectionCorrectAnswer.ToString();
+        numbersOfFalseAnswerText.text = thisSectionWrongAnswer.ToString();
 
-        // Display the current streak
-        currentStreakText.text = AnswerManager.instance.GetCurrentStreak().ToString();
     }
 
-    // ! Change this
     private void CalculateCorrectAndInCorrectAnswers()
     {
         int choosenChapter = GameManager.instance.choosenChapterIndex;

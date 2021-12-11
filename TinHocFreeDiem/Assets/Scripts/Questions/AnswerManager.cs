@@ -20,7 +20,6 @@ public class AnswerManager : MonoBehaviour
     }
 
     [SerializeField] private int totalCorrectAnswer = 0;
-    [SerializeField] private int currentStreak;
 
     public void SetTotalCorrectAnswer(int addAmmout)
     {
@@ -31,13 +30,4 @@ public class AnswerManager : MonoBehaviour
         totalCorrectAnswer = Mathf.RoundToInt(setAmmout);
     }
 
-
-    public int GetCurrentStreak()
-    {
-        return currentStreak;
-    }
-    public void SetCurrentStreak(int newStreak)
-    {
-        currentStreak = newStreak;
-    }
 }

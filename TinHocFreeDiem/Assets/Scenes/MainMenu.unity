@@ -150,7 +150,7 @@ RectTransform:
   m_GameObject: {fileID: 12697031}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.187, y: 1.187, z: 1.187}
   m_Children: []
   m_Father: {fileID: 606298370}
   m_RootOrder: 1
@@ -173,14 +173,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.93967205, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f069afd1e86743f4a91dec81c5beb680, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f5c48b4120a730a438c65522dd315926, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -834,32 +834,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c2cdeeb21b0539469dca4dfb43a87c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfChapters: 20
+  numberOfChapters: 22
   chaptersPrefix: "B\xE0i"
   screenToSwitchTo: QuestionsScene
   choosingChapterContent: {fileID: 1106033173}
   choosingChapterTemplate: {fileID: 3175861496126676116, guid: 9d9108d5b4fa6cd429908a0cc02e2e26, type: 3}
   spritesForRepresentImage:
-  - {fileID: 21300000, guid: 3879b40f1cbadfb4e990f694e1c54385, type: 3}
-  - {fileID: 21300000, guid: cf88c4cfc535ad349a15dc277ac1c6ed, type: 3}
-  - {fileID: 21300000, guid: 48b1bfc7f8181ea42a7bf427df5326dd, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: b3920cfe3ec10b24fae28ee838b2d313, type: 3}
+  - {fileID: 21300000, guid: 60762375a8b52104bb7c11e4740cde84, type: 3}
+  - {fileID: 21300000, guid: 46e60bb5c614aa04ab357ccef364ec66, type: 3}
+  - {fileID: 21300000, guid: fd77e975e0e294d4296fb23743f0b775, type: 3}
+  - {fileID: 21300000, guid: 90a504e61a2ce274dae4323573f448b1, type: 3}
+  - {fileID: 21300000, guid: f63c9c3e1c7e22a49916243c80201a42, type: 3}
+  - {fileID: 21300000, guid: eaa8ec629e677f84b823685ff5f8300d, type: 3}
+  - {fileID: 21300000, guid: 7afb00af2a8aa8b419ce23395c6fc1cf, type: 3}
+  - {fileID: 21300000, guid: 9529711e0bb8c6440a14101b897b9fc7, type: 3}
+  - {fileID: 21300000, guid: 4d474f3c4b170ab429ab4a8525f94a8e, type: 3}
+  - {fileID: 21300000, guid: dbc5d89a3b42e4e4c9d4205dcb1506e5, type: 3}
+  - {fileID: 21300000, guid: f253c78b218f4e5479e09005ca619bb7, type: 3}
+  - {fileID: 21300000, guid: 1b1b524377c434f43bbfab2285d77b76, type: 3}
+  - {fileID: 21300000, guid: a48b87fa99efcc64da79150a00725a4c, type: 3}
+  - {fileID: 21300000, guid: d162b09317cea7a4785673ed593a1abc, type: 3}
+  - {fileID: 21300000, guid: dfbbb76fc03a1474b8cc8b3d135584d4, type: 3}
+  - {fileID: 21300000, guid: 2364bf85c2fc362478c4af0b3a292915, type: 3}
+  - {fileID: 21300000, guid: 927dc6cd7bb8e0e46874689c221e5e96, type: 3}
+  - {fileID: 21300000, guid: eefe026a5bdb0a04795a684361f1a6ea, type: 3}
+  - {fileID: 21300000, guid: 1e9fc456ab9143c4ab680a86413cfd08, type: 3}
+  - {fileID: 21300000, guid: fb11109dcdb3f7c4fb57c7d98442140f, type: 3}
+  - {fileID: 21300000, guid: c08174ed4d63f8b4086115ae7394da83, type: 3}
+  nameOfEachChapter:
+  - "Tin h\u1ECDc l\xE0 m\u1ED9t ng\xE0nh khoa h\u1ECDc"
+  - "Th\xF4ng tin v\xE0 d\u1EEF li\u1EC7u"
+  - "Gi\u1EDBi thi\u1EC7u v\u1EC1 m\xE1y t\xEDnh"
+  - "B\xE0i to\xE1n v\xE0 thu\u1EADt to\xE1n"
+  - "Ng\xF4n ng\u1EEF l\u1EADp tr\xECnh"
+  - "Gi\u1EA3i b\xE0i to\xE1n tr\xEAn m\xE1y t\xEDnh"
+  - "Ph\u1EA7n m\u1EC1m m\xE1y t\xEDnh"
+  - "Nh\u1EEFng \u1EE9ng d\u1EE5ng c\u1EE7a tin h\u1ECDc"
+  - "Tin h\u1ECDc v\xE0 x\xE3 h\u1ED9i"
+  - "Kh\xE1i ni\u1EC7m v\u1EC1 h\u1EC7 \u0111i\u1EC1u h\xE0nh"
+  - "T\u1EC7p v\xE0 qu\u1EA3n l\xED t\u1EC7p"
+  - "Giao ti\u1EBFp v\u1EDBi h\u1EC7 \u0111i\u1EC1u h\xE0nh"
+  - "M\u1ED9t s\u1ED1 h\u1EC7 \u0111i\u1EC1u h\xE0nh th\xF4ng d\u1EE5ng"
+  - "Kh\xE1i ni\u1EC7m v\u1EC1 so\u1EA1n th\u1EA3o v\u0103n b\u1EA3n"
+  - "L\xE0m quen v\u1EDBi Microsoft Word"
+  - "\u0110\u1ECBnh d\u1EA1ng v\u0103n b\u1EA3n"
+  - "M\u1ED9t s\u1ED1 ch\u1EE9c n\u0103ng kh\xE1c"
+  - "C\xE1c c\xF4ng c\u1EE5 tr\u1EE3 gi\xFAp so\u1EA1n th\u1EA3o"
+  - "T\u1EA1o v\xE0 l\xE0m vi\u1EC7c v\u1EDBi b\u1EA3ng"
+  - "M\u1EA1ng m\xE1y t\xEDnh"
+  - "M\u1EA1ng th\xF4ng tin to\xE0n c\u1EA7u Internet"
+  - "M\u1ED9t s\u1ED1 d\u1ECBch v\u1EE5 c\u01A1 b\u1EA3n c\u1EE7a Internet"
   randomColors:
   - {r: 0.9529412, g: 0.6509804, b: 0.5137255, a: 1}
   - {r: 0.94509804, g: 0.5647059, b: 0.4, a: 1}
@@ -1631,7 +1656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.98039216, g: 0.654902, b: 0.85490197, a: 1}
+  m_Color: {r: 0.972549, g: 0.64705884, b: 0.7607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

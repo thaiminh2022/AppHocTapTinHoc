@@ -14,6 +14,7 @@ public class MainMenuController : MonoBehaviour
 
     [Tooltip("The ammout of this should be = to numbers of chapter")]
     [SerializeField] private Sprite[] spritesForRepresentImage;
+    [SerializeField] private string[] nameOfEachChapter;
 
     [Header("Color")]
     [SerializeField] private Color[] randomColors;
@@ -88,7 +89,8 @@ public class MainMenuController : MonoBehaviour
             template.thisIndex = i;
 
             // Set the text
-            template.choosingTemplateText.text = $"{chaptersPrefix} {i + 1}";
+            template.choosingTemplateText.text = $"{chaptersPrefix} {i + 1}: {nameOfEachChapter[i]}";
+
 
             // Set the represent image
             if (spritesForRepresentImage[i] != null)

@@ -26,11 +26,15 @@ public class UserTestting : MonoBehaviour
     [SerializeField] Color defaultTextColor;
     [SerializeField] Color defaultColor;
     [SerializeField] Color chosenAnswerColor;
-    [SerializeField] Color correctAnswerColor;
-    [SerializeField] Color wrongAnswerColor;
+    public Color correctAnswerColor;
+    public Color wrongAnswerColor;
 
     [Header("Time")]
     [SerializeField] float timeDoingTest = 0;
+
+    [Header("Game")]
+    public bool isViewingAnswer = false;
+    [SerializeField] GameObject noChapter;
 
     private void Start()
     {
@@ -50,6 +54,11 @@ public class UserTestting : MonoBehaviour
     #region  test with specific chapter.
     private void DoTest()
     {
+        if (choosenIndex > userChapters.GetChapterList().Count - 1)
+        {
+            NoChapter();
+            return;
+        }
         // !If the choosen index is -1. Do a SpecialTest
         if (choosenIndex == -1)
         {
@@ -57,9 +66,17 @@ public class UserTestting : MonoBehaviour
             return;
         }
 
+
+
         AddQuestionToMultipleChoiceContent(choosenIndex);
 
 
+    }
+
+    private void NoChapter()
+    {
+        noChapter.SetActive(true);
+        LeanTweenManagers.instance.ScalingEntryOnCall(noChapter.transform);
     }
 
     private void AddQuestionToMultipleChoiceContent(int chapterIndex)
@@ -100,7 +117,7 @@ public class UserTestting : MonoBehaviour
             // ! IDK ABOUT THIS: template.indexSelf = i;
 
             // Set the template question box
-            template.questionBox.text = $"Câu {io + 1}: " + choosenQuestion.multipleChoiceObject.question;
+            template.questionBox.text = choosenQuestion.multipleChoiceObject.question;
 
             // Set the buttons 
             template.buttonAText.text = "A. " + choosenQuestion.multipleChoiceObject.answerA;
@@ -142,7 +159,7 @@ public class UserTestting : MonoBehaviour
     #endregion
     public void ChooseAnAsnwer(Button button, Button[] buttons, Question question)
     {
-
+        if (isViewingAnswer == true) return;
 
         // find the index of the curreent button
         int index = Array.FindIndex(buttons, item => item == button);
@@ -173,10 +190,10 @@ public class UserTestting : MonoBehaviour
     }
     public void CorrectAnswer(Question question, Button button)
     {
-        question.AnswerIsRight = true;
-        button.GetComponentInParent<MultipleChoiceTemplate>().isTheCorrectButton = true;
-        button.GetComponentInParent<MultipleChoiceTemplate>().displayColor = correctAnswerColor;
+        if (isViewingAnswer == true) return;
 
+        question.AnswerIsRight = true;
+        // button.GetComponentInParent<MultipleChoiceTemplate>().isTheCorrectButton = true;
 
         // Call whenever the play answer a question correct
         userChapters.OnPlayerRight();
@@ -184,10 +201,10 @@ public class UserTestting : MonoBehaviour
     }
     public void WrongAnswer(Question question, Button button)
     {
-        question.AnswerIsRight = false;
-        button.GetComponentInParent<MultipleChoiceTemplate>().isTheCorrectButton = false;
-        button.GetComponentInParent<MultipleChoiceTemplate>().displayColor = wrongAnswerColor;
+        if (isViewingAnswer == true) return;
 
+        question.AnswerIsRight = false;
+        //  button.GetComponentInParent<MultipleChoiceTemplate>().isTheCorrectButton = false;
         // Call whenever the play answer a question wrong
         userChapters.OnPlayerWrong();
     }
@@ -213,7 +230,11 @@ public class UserTestting : MonoBehaviour
 
         TimeSpan t = TimeSpan.FromSeconds(timeDoingTest);
 
-        if (timeDoingTest < 24 * 3600)
+        if (timeDoingTest < 3600)
+        {
+            timeDisplayString = t.ToString(@"mm\:ss");
+        }
+        else if (timeDoingTest > 3600 && timeDoingTest < 24 * 3600)
         {
             timeDisplayString = t.ToString(@"hh\:mm\:ss");
         }
@@ -228,6 +249,8 @@ public class UserTestting : MonoBehaviour
     }
     private void UpdateTestChapterTitle()
     {
+        if (choosenIndex > userChapters.GetChapterList().Count - 1)
+            return;
         switch (choosenIndex)
         {
             case -1:

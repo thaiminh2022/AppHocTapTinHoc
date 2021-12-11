@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
+  m_Name: Cau 3
+  m_EditorClassIdentifier: 
+  question: "\u0110ang s\u1EED d\u1EE5ng m\xE1y t\xEDnh, b\u1ECB m\u1EA5t ngu\u1ED3n
+    \u0111i\u1EC7n?."
+  answerA: "Th\xF4ng tin tr\xEAn RAM b\u1ECB m\u1EA5t, th\xF4ng tin tr\xEAn ROM kh\xF4ng
+    b\u1ECB m\u1EA5t."
+  answerB: "Th\xF4ng tin \u0111\u01B0\u1EE3c l\u01B0u tr\u1EEF l\u1EA1i trong m\xE0n
+    h\xECnh.  "
+  answerC: "Th\xF4ng tin tr\xEAn \u0111\u0129a s\u1EBD b\u1ECB m\u1EA5t."
+  answerD: "Th\xF4ng tin trong b\u1ED9 nh\u1EDB trong b\u1ECB m\u1EA5t h\u1EBFt."
+  correctAnswer: 0
