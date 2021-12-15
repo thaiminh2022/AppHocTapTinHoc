@@ -504,7 +504,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "B\xE0i 1: How to fall in love with Ch\xE2u"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: df5bbaedf29c632418f18b6683b98cc3, type: 2}
   m_sharedMaterial: {fileID: -7303591223327902715, guid: df5bbaedf29c632418f18b6683b98cc3, type: 2}
@@ -531,7 +531,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 67.55
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -834,6 +834,10 @@ MonoBehaviour:
   timeDoingTest: 0
   isViewingAnswer: 0
   noChapter: {fileID: 459292967}
+  deactiveWhenNoChapter:
+  - {fileID: 311670010}
+  - {fileID: 1158986763}
+  - {fileID: 1027921019}
 --- !u!114 &224309813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -883,6 +887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tempChapters: []
+  pathToScriptableFolders: Assets/QuesitionAssest
 --- !u!1 &263226292
 GameObject:
   m_ObjectHideFlags: 0
@@ -4535,7 +4540,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.00024414062}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1400597086
@@ -4992,8 +4997,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 68.07}
+  m_SizeDelta: {x: 0, y: 136.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1501936594
 MonoBehaviour:
@@ -5008,14 +5013,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: d74ccf4723e9d0f45938719ed7580628, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6365,7 +6370,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1580239166}
   m_HandleRect: {fileID: 1580239165}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:

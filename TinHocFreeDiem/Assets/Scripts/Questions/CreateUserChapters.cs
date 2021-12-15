@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 [RequireComponent(typeof(UserChapters))]
 public class CreateUserChapters : MonoBehaviour
@@ -7,6 +8,8 @@ public class CreateUserChapters : MonoBehaviour
     // Create a tempChapter
     public tempChapter[] tempChapters;
 
+
+    public string pathToScriptableFolders = "Assets/QuesitionAssest";
     // Get refrence to userhapter
     private UserChapters userChapters;
 
@@ -16,8 +19,6 @@ public class CreateUserChapters : MonoBehaviour
         TryGetComponent<UserChapters>(out userChapters);
         AddQuestionToChapter();
     }
-
-
     public void AddQuestionToChapter()
     {
         // ! This is a list add to the chapter List
@@ -30,7 +31,7 @@ public class CreateUserChapters : MonoBehaviour
             List<Question> questionsToAddPerChapter = new List<Question>();
 
             // Loop through all the questions in tempMultipleChoicequestions
-            for (int u = 0; u < tempChapters[i].tempMultipleChoiceQuestions.Length; u++)
+            for (int u = 0; u < tempChapters[i].tempMultipleChoiceQuestions.Count; u++)
             {
                 // Create a new question
                 Question newQuestion = new Question
@@ -58,12 +59,26 @@ public class CreateUserChapters : MonoBehaviour
         // Set the user chapter
         userChapters.ChapterList = returnChapter;
     }
+
+    public void ResetAssetInArray()
+    {
+        List<tempChapter> temptempChapters = new List<tempChapter>();
+
+        foreach (var item in tempChapters)
+        {
+            temptempChapters.Add(item);
+        }
+
+        temptempChapters.Clear();
+
+        tempChapters = temptempChapters.ToArray();
+    }
 }
 
 // THIS IS A TEMPCHAPTER, DO NOT TOUCH
 [System.Serializable]
-public struct tempChapter
+public class tempChapter
 {
     public string chapterName;
-    public MultipleChoiceQuestion[] tempMultipleChoiceQuestions;
+    public List<MultipleChoiceQuestion> tempMultipleChoiceQuestions;
 }

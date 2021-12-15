@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
+  m_Name: Question 18
+  m_EditorClassIdentifier: 
+  question: "Ph\xE1t bi\u1EC3u n\xE0o sau \u0111\xE2y l\xE0 ph\xF9 h\u1EE3p nh\u1EA5t
+    v\u1EC1 kh\xE1i ni\u1EC7m bit?.  "
+  answerA: "\u0110\u01A1n v\u1ECB \u0111o l\u01B0\u1EE3ng th\xF4ng tin."
+  answerB: "Phi s\u1ED1. "
+  answerC: "H\xECnh \u1EA3nh v\xE0 \xE2m thanh.  "
+  answerD: "H\u1ED7n h\u1EE3p s\u1ED1 v\xE0 phi s\u1ED1. "
+  correctAnswer: 0

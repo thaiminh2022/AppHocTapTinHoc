@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
+  m_Name: Question 26
+  m_EditorClassIdentifier: 
+  question: "H\xE3y cho bi\u1EBFt d\u1EA1ng th\xF4ng tin b\u1EA1n T\xE2m nh\u1EADn
+    \u0111\u01B0\u1EE3c trong nh\u1EEFng tr\u01B0\u1EDDng h\u1EE3p sau: \u201CT\xE2m
+    xem truy\u1EC7n tranh \u201CTh\xE1nh Gi\xF3ng\u201D (kh\xF4ng c\xF3 \xE2m thanh)
+    tr\xEAn \u0111\u0129a C\u201D."
+  answerA: "D\u1EA1ng v\u0103n b\u1EA3n + D\u1EA1ng h\xECnh \u1EA3nh.\t"
+  answerB: "D\u1EA1ng h\xECnh \u1EA3nh + D\u1EA1ng \xE2m thanh."
+  answerC: "D\u1EA1ng v\u0103n b\u1EA3n."
+  answerD: "D\u1EA1ng \xE2m thanh."
+  correctAnswer: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
+  m_Name: Question 9
+  m_EditorClassIdentifier: 
+  question: "Ng\xE0nh tin h\u1ECDc \u0111\u01B0\u1EE3c h\xECnh th\xE0nh v\xE0 ph\xE1t
+    tri\u1EC3n l\xE0 do vi\u1EC7c s\xE1ng t\u1EA1o ra m\xE1y t\xEDnh v\xE0?. "
+  answerA: "Nhu c\u1EA7u ph\xE1t tri\u1EC3n kinh t\u1EBF."
+  answerB: "Nhu c\u1EA7u khai th\xE1c th\xF4ng tin. "
+  answerC: "Nhu c\u1EA7u khai th\xE1c ch\u1EA5t x\xE1m."
+  answerD: "Nhu c\u1EA7u khai th\xE1c t\xE0i nguy\xEAn. "
+  correctAnswer: 1

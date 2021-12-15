@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
+  m_Name: Question 12
+  m_EditorClassIdentifier: 
+  question: "\u0110\u1EB7c \u0111i\u1EC3m c\u1EE7a m\xE1y t\xEDnh l\xE0:."
+  answerA: "T\u1ED1c \u0111\u1ED9 x\u1EED l\xFD nhanh v\xE0 ch\xEDnh x\xE1c."
+  answerB: "L\u01B0u tr\u1EEF m\u1ED9t l\u01B0\u1EE3ng l\u1EDBn th\xF4ng tin trong
+    m\u1ED9t kh\xF4ng gian nh\u1ECF."
+  answerC: "C\xF3 th\u1EC3 li\xEAn k\u1EBFt c\xE1c m\xE1y t\xEDnh v\u1EDBi nhau c\xF9ng
+    chia s\u1EBB t\xE0i nguy\xEAn."
+  answerD: "T\u1EA5t c\u1EA3 c\xE1c \u0111\u1EB7c \u0111i\u1EC3m \u0111\xE3 n\xEAu. "
+  correctAnswer: 3

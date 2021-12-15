@@ -35,6 +35,7 @@ public class UserTestting : MonoBehaviour
     [Header("Game")]
     public bool isViewingAnswer = false;
     [SerializeField] GameObject noChapter;
+    [SerializeField] GameObject[] deactiveWhenNoChapter;
 
     private void Start()
     {
@@ -76,6 +77,11 @@ public class UserTestting : MonoBehaviour
     private void NoChapter()
     {
         noChapter.SetActive(true);
+
+        foreach (var item in deactiveWhenNoChapter)
+        {
+            item.SetActive(false);
+        }
         LeanTweenManagers.instance.ScalingEntryOnCall(noChapter.transform);
     }
 

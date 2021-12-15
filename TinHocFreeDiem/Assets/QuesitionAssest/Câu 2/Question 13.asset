@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
+  m_Name: Question 13
+  m_EditorClassIdentifier: 
+  question: "H\u1EC7 \u0111\u1EBFm n\xE0o sau \u0111\xE2y l\xE0 h\u1EC7 \u0111\u1EBFm
+    kh\xF4ng ph\u1EE5 thu\u1ED9c v\u1ECB tr\xED?."
+  answerA: "H\u1EC7 \u0111\u1EBFm Nh\u1ECB ph\xE2n. "
+  answerB: "H\u1EC7 \u0111\u1EBFm Th\u1EADp ph\xE2n. "
+  answerC: "H\u1EC7 \u0111\u1EBFm Hexa. "
+  answerD: "H\u1EC7 \u0111\u1EBFm La m\xE3. "
+  correctAnswer: 3
