@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class UserChapters : MonoBehaviour
 {
     [Header("Chapters")]
-    [SerializeField] private List<Chapter> chapers;
+    private List<Chapter> chapers;
 
     [Header("Events")]
     [SerializeField] UnityEvent OnPlayerFinishedAnswer;
@@ -31,11 +31,13 @@ public class UserChapters : MonoBehaviour
     {
         OnPlayerAnswerRight?.Invoke();
     }
-
-    public List<Chapter> GetChapterList()
+    public List<Chapter> ChapterList
     {
-        return chapers;
+        get { return chapers; }
+        set { chapers = value; }
     }
+
+
     public Color ChooseRandomColor()
     {
         int index = Random.Range(0, colorsTheme.Length);

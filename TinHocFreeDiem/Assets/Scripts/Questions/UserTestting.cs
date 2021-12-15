@@ -54,7 +54,7 @@ public class UserTestting : MonoBehaviour
     #region  test with specific chapter.
     private void DoTest()
     {
-        if (choosenIndex > userChapters.GetChapterList().Count - 1)
+        if (choosenIndex > userChapters.ChapterList.Count - 1)
         {
             NoChapter();
             return;
@@ -82,7 +82,7 @@ public class UserTestting : MonoBehaviour
     private void AddQuestionToMultipleChoiceContent(int chapterIndex)
     {
         // Get the chapter we want to test
-        Chapter chapterList = userChapters.GetChapterList()[chapterIndex];
+        Chapter chapterList = userChapters.ChapterList[chapterIndex];
 
         // Loop through all the qeustions
         InitButtons(chapterList);
@@ -134,10 +134,14 @@ public class UserTestting : MonoBehaviour
             // Loop through all the buttons 
             foreach (var button in buttons)
             {
+
+
                 // Check if the button is the correct answer
                 if (button.GetComponent<ChoiceButton>().answerButton == choosenQuestion.multipleChoiceObject.correctAnswer)
                 {
                     // Add a special onclick
+                    template.correctAnswer = choosenQuestion.multipleChoiceObject.correctAnswer;
+
                     button.onClick.AddListener(() =>
                     {
                         CorrectAnswer(currentQuestion, button);
@@ -182,7 +186,6 @@ public class UserTestting : MonoBehaviour
             }
         }
 
-        // Onclick behavior
 
 
         //  Mark the question is checked
@@ -212,7 +215,7 @@ public class UserTestting : MonoBehaviour
     private void DoSpecialTest()
     {
         // Loop through all the chaptr and init the buttons
-        foreach (var chapter in userChapters.GetChapterList())
+        foreach (var chapter in userChapters.ChapterList)
         {
             InitButtons(chapter);
         }
@@ -249,7 +252,7 @@ public class UserTestting : MonoBehaviour
     }
     private void UpdateTestChapterTitle()
     {
-        if (choosenIndex > userChapters.GetChapterList().Count - 1)
+        if (choosenIndex > userChapters.ChapterList.Count - 1)
             return;
         switch (choosenIndex)
         {
@@ -257,7 +260,7 @@ public class UserTestting : MonoBehaviour
                 titleText.text = "T Ấ T  C Ả";
                 break;
             default:
-                titleText.text = userChapters.GetChapterList()[choosenIndex].chapterName;
+                titleText.text = userChapters.ChapterList[choosenIndex].chapterName;
                 break;
         }
     }

@@ -57,10 +57,12 @@ public class SubmitAnswer : MonoBehaviour
                 if (script.correctAnswer == correctAnswer)
                 {
                     button.GetComponent<Outline>().effectColor = userTestting.correctAnswerColor;
+                    button.image.color = userTestting.correctAnswerColor;
                 }
                 else
                 {
                     button.GetComponent<Outline>().effectColor = userTestting.wrongAnswerColor;
+                    button.image.color = userTestting.wrongAnswerColor;
                 }
             }
         }
@@ -82,7 +84,7 @@ public class SubmitAnswer : MonoBehaviour
         // Special case
         if (choosenChapter < 0)
         {
-            foreach (var chapter in userChapter.GetChapterList())
+            foreach (var chapter in userChapter.ChapterList)
             {
                 foreach (var question in chapter.questions)
                 {
@@ -101,13 +103,13 @@ public class SubmitAnswer : MonoBehaviour
             return;
         }
 
-        for (int i = 0; i < userChapter.GetChapterList().Count; i++)
+        for (int i = 0; i < userChapter.ChapterList.Count; i++)
         {
 
             if (i == choosenChapter)
             {
                 // Loop through all the question
-                foreach (Question question in userChapter.GetChapterList()[i].questions)
+                foreach (Question question in userChapter.ChapterList[i].questions)
                 {
                     if (question.AnswerIsRight == true)
                     {
@@ -136,7 +138,7 @@ public class SubmitAnswer : MonoBehaviour
         if (GameManager.instance.choosenChapterIndex < 0)
         {
 
-            foreach (Chapter chapter in userChapter.GetChapterList())
+            foreach (Chapter chapter in userChapter.ChapterList)
             {
 
                 foreach (Question question in chapter.questions)
@@ -162,13 +164,13 @@ public class SubmitAnswer : MonoBehaviour
         }
         else
         {
-            for (int i = 0; i < userChapter.GetChapterList().Count; i++)
+            for (int i = 0; i < userChapter.ChapterList.Count; i++)
             {
 
                 if (i == GameManager.instance.choosenChapterIndex)
                 {
                     // Loop through all the question
-                    foreach (Question question in userChapter.GetChapterList()[i].questions)
+                    foreach (Question question in userChapter.ChapterList[i].questions)
                     {
                         switch (question.isChecked)
                         {

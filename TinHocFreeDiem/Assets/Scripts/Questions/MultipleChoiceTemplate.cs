@@ -23,6 +23,6 @@ public class MultipleChoiceTemplate : MonoBehaviour
     public TextMeshProUGUI buttonDText;
 
     [Header("Self")]
-    public CorrectAnswer correctAnswer;
-   //  public bool isTheCorrectButton;
+    public CorrectAnswer correctAnswer = CorrectAnswer.A;
+    //  public bool isTheCorrectButton;
 }
