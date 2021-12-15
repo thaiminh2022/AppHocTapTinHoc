@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 32
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Trong c\xE1c thi\u1EBFt b\u1ECB sau \u0111\xE2y, thi\u1EBFt b\u1ECB
+    n\xE0o thu\u1ED9c nh\xF3m thi\u1EBFt b\u1ECB ngo\u1EA1i vi?."
+  answerA: CPU.
+  answerB: "B\xE0n ph\xEDm."
+  answerC: ROM.
+  answerD: RAM.
+  correctAnswer: 1

@@ -12,9 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 18
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "H\xE3y ch\u1EC9 ra ph\xE1t bi\u1EC3u sai trong c\xE1c ph\xE1t bi\u1EC3u
+    sau?."
+  answerA: "Ch\u01B0\u01A1ng tr\xECnh l\xE0 d\xE3y c\xE1c l\u1EC7nh, m\u1ED7i l\u1EC7nh
+    m\xF4 t\u1EA3 m\u1ED9t thao t\xE1c."
+  answerB: "V\u1EDBi m\u1ECDi ch\u01B0\u01A1ng tr\xECnh, khi m\xE1y t\xEDnh \u0111ang
+    th\u1EF1c hi\u1EC7n th\xEC con ng\u01B0\u1EDDi kh\xF4ng th\u1EC3 can thi\u1EC7p
+    d\u1EEBng ch\u01B0\u01A1ng tr\xECnh \u0111\xF3."
+  answerC: "Ng\u01B0\u1EDDi d\xF9ng \u0111i\u1EC1u khi\u1EC3n m\xE1y t\xEDnh th\xF4ng
+    qua c\xE1c c\xE2u l\u1EC7nh do h\u1ECD m\xF4 t\u1EA3 trong ch\u01B0\u01A1ng tr\xECnh."
+  answerD: "T\u1EA1i m\u1ED7i th\u1EDDi \u0111i\u1EC3m m\xE1y t\xEDnh ch\u1EC9 th\u1EF1c
+    hi\u1EC7n \u0111\u01B0\u1EE3c m\u1ED9t l\u1EC7nh, tuy nhi\xEAn n\xF3 th\u1EF1c
+    hi\u1EC7n r\u1EA5t nhanh."
+  correctAnswer: 1

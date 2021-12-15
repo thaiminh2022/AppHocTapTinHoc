@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 25
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "Ch\u1ECDn ph\xE1t bi\u1EC3u sai trong c\xE1c c\xE2u sau?."
+  answerA: "B\u1ED9 nh\u1EDB trong d\xF9ng \u0111\u1EC3 l\u01B0u tr\u1EEF  l\xE2u
+    d\xE0i c\xE1c th\xF4ng tin v\xE0 h\u1ED7 tr\u1EE3 cho b\u1ED9 nh\u1EDB ngo\xE0i."
+  answerB: "B\u1ED9 nh\u1EDB ngo\xE0i d\xF9ng \u0111\u1EC3 l\u01B0u tr\u1EEF  l\xE2u
+    d\xE0i c\xE1c th\xF4ng tin v\xE0 h\u1ED7 tr\u1EE3 cho b\u1ED9 nh\u1EDB trong."
+  answerC: "Thanh ghi l\xE0 v\xF9ng nh\u1EDB \u0111\u1EB7c bi\u1EC7t \u0111\u01B0\u1EE3c
+    CPU s\u1EED d\u1EE5ng \u0111\u1EC3 l\u01B0u tr\u1EEF t\u1EA1m th\u1EDDi c\xE1c
+    l\u1EC7nh v\xE0 d\u1EEF li\u1EC7u \u0111ang x\u1EED l\xED."
+  answerD: "C\xE1c th\xF4ng tin l\u01B0u tr\u1EEF trong b\xF4 nh\u1EDB ngo\xE0i s\u1EBD
+    kh\xF4ng m\u1EA5t khi t\u1EAFt m\xE1y."
   correctAnswer: 0

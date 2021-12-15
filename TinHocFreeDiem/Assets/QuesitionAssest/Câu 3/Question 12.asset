@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 12
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "H\xE3y ch\u1ECDn c\xE2u \u0111\xFAng: Thi\u1EBFt b\u1ECB v\xE0o \u2026\u2026\u2026?."
+  answerA: "d\xF9ng \u0111\u1EC3 nh\u1EADp th\xF4ng tin v\xE0o."
+  answerB: "d\xF9ng \u0111\u1EC3 \u0111\u01B0a th\xF4ng tin ra."
+  answerC: "l\u01B0u tr\u1EEF th\xF4ng tin l\xE2u d\xE0i."
+  answerD: "th\u1EF1c hi\u1EC7n c\xE1c ph\xE9p to\xE1n s\u1ED1 h\u1ECDc v\xE0 logic."
   correctAnswer: 0

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 47
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "Vi\u1EBFt s\u1ED1 th\u1EF1c sau d\u01B0\u1EDBi d\u1EA1ng d\u1EA5u ph\u1EA9y
+    \u0111\u1ED9ng: 25,879."
+  answerA: 0,25879 x 10^2
+  answerB: "0,25879 x 10^\u20132."
+  answerC: 25879 x 10^-2
+  answerD: 0,025879 x 10^3
   correctAnswer: 0

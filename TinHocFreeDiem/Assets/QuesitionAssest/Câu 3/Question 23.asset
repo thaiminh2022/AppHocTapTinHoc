@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 23
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "Ch\u1ECDn ph\xE1t bi\u1EC3u \u0111\xFAng trong c\xE1c c\xE2u sau?."
+  answerA: "RAM l\xE0 b\u1ED9 trong, l\xE0 n\u01A1i c\xF3 th\u1EC3 ghi, xo\xE1 th\xF4ng
+    tin trong l\xFAc l\xE0m vi\u1EC7c."
+  answerB: "H\u1EC7 nh\u1ECB ph\xE2n s\u1EED d\u1EE5ng c\xE1c ch\u1EEF s\u1ED1 1
+    v\xE0 2."
+  answerC: "H\u1EC7 th\u1EADp ph\xE2n s\u1EED d\u1EE5ng c\xE1c ch\u1EEF s\u1ED1 
+    t\u1EEB 0 \u0111\u1EBFn 9 v\xE0 A, B, C, D, E, F."
+  answerD: "ROM  l\xE0 b\u1ED9 trong, l\xE0 n\u01A1i c\xF3 th\u1EC3 ghi , xo\xE1
+    th\xF4ng tin trong l\xFAc l\xE0m vi\u1EC7c. "
   correctAnswer: 0

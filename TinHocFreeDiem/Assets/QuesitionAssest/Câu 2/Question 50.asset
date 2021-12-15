@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
+  m_Name: Question 50
+  m_EditorClassIdentifier: 
+  question: "Ch\u1ECDn ph\xE1t bi\u1EC3u \u0111\xFAng trong c\xE1c c\xE2u sau?. "
+  answerA: "H\u1EC7 th\u1EADp l\u1EE5c ph\xE2n s\u1EED d\u1EE5ng 10 ch\u1EEF s\u1ED1
+    t\u1EEB  0  \u0111\u1EBFn  9  v\xE0  6  ch\u1EEF  c\xE1i  A , B , C , D , E ,
+    F."
+  answerB: "H\u1EC7 th\u1EADp l\u1EE5c ph\xE2n s\u1EED d\u1EE5ng 10 ch\u1EEF s\u1ED1
+    t\u1EEB  0  \u0111\u1EBFn  9. "
+  answerC: "H\u1EC7 th\u1EADp l\u1EE5c ph\xE2n s\u1EED d\u1EE5ng 2 ch\u1EEF s\u1ED1
+    t\u1EEB  0 v\xE0 1. "
+  answerD: "H\u1EC7 th\u1EADp l\u1EE5c ph\xE2n s\u1EED d\u1EE5ng 7 ch\u1EEF  c\xE1i 
+    I , V , X , L , C , D, M."
+  correctAnswer: 0

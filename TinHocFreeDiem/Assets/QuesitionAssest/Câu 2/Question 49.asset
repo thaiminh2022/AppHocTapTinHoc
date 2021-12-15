@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
+  m_Name: Question 49
+  m_EditorClassIdentifier: 
+  question: "H\xE3y ch\u1ECDn kh\u1EB3ng \u0111\u1ECBnh sai trong trong c\xE1c kh\u1EB3ng
+    \u0111\u1ECBnh sau?."
+  answerA: "M\xE1y t\xEDnh c\xF3 th\u1EC3 thay th\u1EBF cho con ng\u01B0\u1EDDi trong
+    l\u0129nh v\u1EF1c t\xEDnh to\xE1n."
+  answerB: "H\u1ECDc tin h\u1ECDc l\xE0 h\u1ECDc s\u1EED d\u1EE5ng m\xE1y t\xEDnh."
+  answerC: "M\xE1y t\xEDnh l\xE0 s\u1EA3n ph\u1EA9m tr\xED tu\u1EC7 c\u1EE7a con
+    ng\u01B0\u1EDDi."
+  answerD: "M\u1ED9t ng\u01B0\u1EDDi ph\xE1t tri\u1EC3n to\xE0n di\u1EC7n trong x\xE3
+    h\u1ED9i hi\u1EC7n \u0111\u1EA1i kh\xF4ng th\u1EC3 thi\u1EBFu hi\u1EC3u bi\u1EBFt
+    v\u1EC1 tin h\u1ECDc."
+  correctAnswer: 1

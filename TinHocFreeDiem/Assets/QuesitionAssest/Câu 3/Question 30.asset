@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 30
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "Ch\u1ECDn ph\xE1t bi\u1EC3u sai trong c\xE1c c\xE2u sau?. "
+  answerA: "B\u1ED9 nh\u1EDB ngo\xE0i s\u1EBD b\u1ECB m\u1EA5t khi t\u1EAFt m\xE1y
+    hay c\xFAp \u0111i\u1EC7n \u0111\u1ED9t ng\u1ED9t."
+  answerB: "B\u1ED9 nh\u1EDB ngo\xE0i th\u01B0\u1EDDng l\xE0 \u0111\u0129a c\u1EE9ng,
+    USB, CD-ROM, \u1ED4 \u0111\u0129a di \u0111\u1ED9ng.   "
+  answerC: "Ph\u1EA7n c\u1EE9ng m\xE1y t\xEDnh bao g\u1ED3m: B\u1ED9 x\u1EED l\xED
+    trung t\xE2m, b\u1ED9 nh\u1EDB trong, c\xE1c thi\u1EBFt b\u1ECB v\xE0o \u2013
+    ra th\xF4ng tin, b\u1ED9 nh\u1EDB ngo\xE0i."
+  answerD: "CPU g\u1ED3m hai b\u1ED9 ph\u1EADn: b\u1ED9 \u0111i\u1EC1u khi\u1EC3n
+    (CU \u2013 Control Unit) v\xE0 b\u1ED9 s\u1ED1 h\u1ECDc / l\xF4gic (ALU \u2013
+    Arithmetic / Logic Unit)."
   correctAnswer: 0

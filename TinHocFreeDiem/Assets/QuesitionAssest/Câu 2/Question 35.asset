@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 35
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "S\u1ED1 1101001 \u1EDF h\u1EC7 nh\u1ECB ph\xE2n chuy\u1EC3n \u0111\u1ED5i
+    bi\u1EC3u di\u1EC5n sang h\u1EC7 th\u1EADp ph\xE2n s\u1EBD l\xE0?. "
+  answerA: '105. '
+  answerB: '107. '
+  answerC: '106. '
+  answerD: '104. '
   correctAnswer: 0

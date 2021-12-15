@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 19
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "H\xE3y \u0111i\u1EC1n t\u1EEB th\xEDch h\u1EE3p v\xE0o ch\u1ED7 tr\u1ED1ng
+    (\u2026\u2026) trong c\xE2u sau. Nguy\xEAn l\xED \u0111i\u1EC1u khi\u1EC3n b\u1EB1ng
+    ch\u01B0\u01A1ng tr\xECnh: \u201CM\xE1y t\xEDnh ho\u1EA1t \u0111\u1ED9ng theo
+    \u2026\u2026\u2026\u201D?."
+  answerA: "\u0111\u1ECBa ch\u1EC9."
+  answerB: "d\xE3y bit."
+  answerC: "m\xE3 nh\u1ECB ph\xE2n."
+  answerD: "ch\u01B0\u01A1ng tr\xECnh."
+  correctAnswer: 3

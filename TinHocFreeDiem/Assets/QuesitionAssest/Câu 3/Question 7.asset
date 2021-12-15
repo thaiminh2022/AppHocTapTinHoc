@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 7
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Ch\u1ECDn ph\xE1t bi\u1EC3u \u0111\xFAng nh\u1EA5t?"
+  answerA: "S\u1EF1 ph\xE1t tri\u1EC3n ph\u1EA7n c\u1EE9ng m\xE1y t\xEDnh \u0111\u1ED9c
+    l\u1EADp v\u1EDBi s\u1EF1 ph\xE1t tri\u1EC3n ph\u1EA7n m\u1EC1m m\xE1y t\xEDnh."
+  answerB: "S\u1EF1 ph\xE1t tri\u1EC3n ph\u1EA7n c\u1EE9ng ph\u1EE5 thu\u1ED9c ho\xE0n
+    to\xE0n v\xE1o s\u1EF1 ph\xE1t tri\u1EC3n c\u1EE7a ph\u1EA7n m\u1EC1m."
+  answerC: "S\u1EF1 ph\xE1t tri\u1EC3n c\u1EE7a ph\u1EA7n c\u1EE9ng t\u1EA1o \u0111i\u1EC1u
+    ki\u1EC7n cho ph\xE1t tri\u1EC3n ph\u1EA7n m\u1EC1m v\xE0 ng\u01B0\u1EE3c l\u1EA1i."
+  answerD: "T\u1EA5t c\u1EA3 c\xE2u tr\xEAn \u0111\u1EC1u sai."
+  correctAnswer: 2

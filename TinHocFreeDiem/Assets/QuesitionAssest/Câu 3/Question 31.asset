@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 31
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Ch\u1ECDn ph\xE1t bi\u1EC3u \u0111\xFAng trong c\xE1c c\xE2u sau?."
+  answerA: "B\u1ED9 nh\u1EDB ngo\xE0i th\u01B0\u1EDDng l\xE0 \u0111\u0129a c\u1EE9ng,
+    \u1ED5 \u0111\u0129a di \u0111\u1ED9ng, USB"
+  answerB: "Ph\u1EA7n c\u1EE9ng m\xE1y t\xEDnh bao g\u1ED3m: B\u1ED9 x\u1EED l\xED
+    trung t\xE2m, b\u1ED9 nh\u1EDB trong, c\xE1c thi\u1EBFt b\u1ECB v\xE0o \u2013
+    ra, b\u1ED9 nh\u1EDB ngo\xE0i"
+  answerC: "Ph\u1EA7n c\u1EE9ng m\xE1y t\xEDnh bao g\u1ED3m: B\u1ED9 x\u1EED l\xED
+    trung t\xE2m, b\u1ED9 nh\u1EDB trong, c\xE1c thi\u1EBFt b\u1ECB v\xE0o \u2013
+    ra, b\u1ED9 nh\u1EDB ngo\xE0i"
+  answerD: "T\u1EA5t c\u1EA3 c\xE1c \xFD \u0111\u1EC1u \u0111\xFAng."
+  correctAnswer: 3

@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 6
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Ch\u1ECDn c\xE2u \u0110\xDANG nh\u1EA5t?."
+  answerA: "H\u1EC7 th\u1ED1ng tin h\u1ECDc d\xF9ng \u0111\u1EC3 nh\u1EADp, xu\u1EA5t
+    d\u1EEF li\u1EC7u."
+  answerB: "H\u1EC7 th\u1ED1ng tin h\u1ECDc d\xF9ng \u0111\u1EC3 x\u1EED l\xED d\u1EEF
+    li\u1EC7u v\xE0 truy\u1EC1n th\xF4ng tin."
+  answerC: "H\u1EC7 th\u1ED1ng tin h\u1ECDc d\xF9ng \u0111\u1EC3 l\u01B0u tr\u1EEF
+    th\xF4ng tin."
+  answerD: "H\u1EC7 th\u1ED1ng tin h\u1ECDc d\xF9ng \u0111\u1EC3 nh\u1EADp, x\u1EE9
+    l\xED, xu\u1EA5t v\xE0 l\u01B0u tr\u1EEF th\xF4ng tin."
+  correctAnswer: 3
