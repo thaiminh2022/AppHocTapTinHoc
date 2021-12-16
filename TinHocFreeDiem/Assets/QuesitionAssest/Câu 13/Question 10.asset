@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 10
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "\u0110\xE2u l\xE0 phi\xEAn b\u1EA3n c\u1EE7a h\u1EC7 \u0111i\u1EC1u
+    h\xE0nh Linux:"
+  answerA: UBUNTU
+  answerB: AIX
+  answerC: SOLARIS
+  answerD: Window Me
   correctAnswer: 0

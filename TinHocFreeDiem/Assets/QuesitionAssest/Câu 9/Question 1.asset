@@ -12,9 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 1
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Trong c\xE1c ph\xE1t bi\u1EC3u sau \u0111\xE2y, ph\xE1t bi\u1EC3u n\xE0o
+    sai?"
+  answerA: "C\xE1c m\u1EB7t ho\u1EA1t \u0111\u1ED9ng ch\xEDnh c\u1EE7a x\xE3 h\u1ED9i
+    trong th\u1EDDi \u0111\u1EA1i tin h\u1ECDc h\xF3a s\u1EBD \u0111\u01B0\u1EE3c
+    \u0111i\u1EC1u h\xE0nh v\u1EDBi s\u1EF1 h\u1ED7 tr\u1EE3 c\u1EE7a c\xE1c m\u1EA1ng
+    m\xE1y t\xEDnh, c\xE1c h\u1EC7 th\u1ED1ng tin h\u1ECDc l\u1EDBn."
+  answerB: "Trong x\xE3 h\u1ED9i tin h\u1ECDc h\xF3a, th\xF4ng tin l\xE0 t\xE0i s\u1EA3n
+    chung c\u1EE7a m\u1ECDi ng\u01B0\u1EDDi n\xEAn ch\xFAng ta kh\xF4ng c\u1EA7n
+    ph\u1EA3i b\u1EA3o v\u1EC7 th\xF4ng tin."
+  answerC: "XH h\xF3a c\xF3 nh\u1EEFng q.\u0111\u1ECBnh v\xE0 \u0111i\u1EC1u lu\u1EADt
+    \u0111\u1EC3 b\u1EA3o v\u1EC7 t.tin v\xE0 x\u1EED l\xED c\xE1c t\u1ED9i ph\xE1
+    ho\u1EA1i th\xF4ng tin."
+  answerD: "S\u1EF1 ph\xE1t tri\u1EC3n c\u1EE7a tin h\u1ECDc l\xE0m cho XH c\xF3
+    nhi\u1EC1u nh\u1EADn th\u1EE9c m\u1EDBi v\u1EC1 c\xE1ch t\u1ED5 ch\u1EE9c ho\u1EA1t
+    \u0111\u1ED9ng."
+  correctAnswer: 1

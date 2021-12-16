@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 8
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "C\xE1c ho\u1EA1t \u0111\u1ED9ng n\xE0o sau \u0111\xE2y kh\xF4ng b\u1ECB
+    ph\xEA ph\xE1n?."
+  answerA: "C\xE0i \u0111\u1EB7t m\u1EADt kh\u1EA9u c\xE1c nh\xE2n tr\xEAn m\xE1y
+    t\xEDnh."
+  answerB: "Ph\xE1t t\xE1n c\xE1c h\xECnh \u1EA3nh \u0111\u1ED3i tr\u1EE5y l\xEAn
+    m\u1EA1ng."
+  answerC: "C\u1ED1 \xFD l\xE0m nhi\u1EC5m virus v\xE0o m\xE1y t\xEDnh c\u1EE7a ng\u01B0\u1EDDi
+    kh\xE1c."
+  answerD: "Sao ch\xE9p c\xE1c ph\u1EA7n m\u1EC1m kh\xF4ng c\xF3 b\u1EA3n quy\u1EC1n."
   correctAnswer: 0

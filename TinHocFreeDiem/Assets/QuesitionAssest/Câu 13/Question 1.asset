@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 1
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "H\xE3y cho bi\u1EBFt c\xE2u n\xE0o trong nh\u1EEFng c\xE2u d\u01B0\u1EDBi
+    \u0111\xE2y ph\xE1t bi\u1EC3u kh\xF4ng \u0111\xFAng v\u1EC1 xu h\u01B0\u1EDBng
+    ph\xE1t tri\u1EC3n h\u1EC7 \u0111i\u1EC1u h\xE0nh?"
+  answerA: "H\u1EC7 \u0111i\u1EC1u h\xE0nh c\xF3 giao di\u1EC7n \u0111\u1EB9p v\xE0
+    d\u1EC5 s\u1EED d\u1EE5ng h\u01A1n"
+  answerB: "H\u1EC7 \u0111i\u1EC1u h\xE0nh c\xF3 nhi\u1EC1u t\xEDnh n\u0103ng h\u01A1n"
+  answerC: "Ch\u01B0\u01A1ng tr\xECnh h\u1EC7 \u0111i\u1EC1u h\xE0nh tr\u1EDF n\xEAn
+    \u0111\u01A1n gi\u1EA3n h\u01A1n"
+  answerD: "H\u1EC7 \u0111i\u1EC1u h\xE0nh khai th\xE1c c\xE1c t\xE0i nguy\xEAn c\u1EE7a
+    m\xE1y t\u1ED1t h\u01A1n"
+  correctAnswer: 3

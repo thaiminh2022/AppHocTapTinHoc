@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 9
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Trong h\u1EC7 \u0111i\u1EC1u h\xE0nh MS DOS, t\xEAn c\u1EE7a m\u1ED9t
+    t\u1EADp tin d\xE0i t\u1ED1i \u0111a bao nhi\xEAu k\xED t\u1EF1"
+  answerA: "11 k\xED t\u1EF1"
+  answerB: "1 k\xED t\u1EF1"
+  answerC: "255 k\xED t\u1EF1"
+  answerD: "999 k\xED t\u1EF1"
+  correctAnswer: 2

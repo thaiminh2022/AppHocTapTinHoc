@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 7
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Ti\u0301nh ch\xE2\u0301t cu\u0309a h\xEA\u0323 \u0111i\xEA\u0300u ha\u0300nh
+    MS-DOS la\u0300"
+  answerA: "L\xE0 h\u1EC7 \u0111i\u1EC1u h\xE0nh \u0111a nhi\u1EC7m nhi\u1EC1u ng\u01B0\u1EDDi
+    d\xF9ng"
+  answerB: "Giao ti\u1EBFp v\u1EDBi h\u1EC7 \u0111i\u1EC1u h\xE0nh th\xF4ng qua b\u1EA3ng
+    ch\u1ECDn"
+  answerC: "L\xE0 h\u1EC7 \u0111i\u1EC1u h\xE0nh \u0111\u01A1n nhi\u1EC7m m\u1ED9t
+    ng\u01B0\u1EDDi d\xF9ng"
+  answerD: "L\xE0 h\u1EC7 \u0111i\u1EC1u h\xE0nh m\xE3 ngu\u1ED3n m\u1EDF"
+  correctAnswer: 2

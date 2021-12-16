@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 7
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "T\u1EA1i sao kh\xF4ng n\xEAn sao ch\xE9p m\u1ED9t tr\xF2 ch\u01A1i CD-ROM
+    m\xE0 em kh\xF4ng c\xF3 gi\u1EA5y \u0111\u0103ng k\xFD b\u1EA3n quy\u1EC1n?."
+  answerA: "B\u1EDFi v\xEC nh\u1EEFng t\u1EADp tin tr\xEAn th\u01B0 m\u1EE5c \u0111\u0129a
+    CD g\u1ED1c s\u1EBD b\u1ECB h\u1ECFng."
+  answerB: "B\u1EDFi v\xEC \u0111\xF3 l\xE0 vi ph\u1EA1m b\u1EA3n quy\u1EC1n."
+  answerC: "B\u1EDFi v\xEC \u0111\xF3 l\xE0 qu\xE1 tr\xECnh l\xE0m vi\u1EC7c ph\u1EE9c
+    t\u1EA1p."
+  answerD: "B\u1EDFi v\xEC m\xE1y t\xEDnh c\xF3 th\u1EC3 h\u01B0 h\u1EA1i."
+  correctAnswer: 1

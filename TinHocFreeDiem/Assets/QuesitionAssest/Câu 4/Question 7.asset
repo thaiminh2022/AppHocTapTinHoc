@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 7
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "Vi\u1EC7c x\xE1c \u0111\u1ECBnh b\xE0i to\xE1n l\xE0 \u0111i x\xE1c
+    \u0111\u1ECBnh c\xE1c th\xE0nh ph\u1EA7n n\xE0o?."
+  answerA: "Input v\xE0 Output."
+  answerB: Output.
+  answerC: "Kh\xF4ng c\xF3 th\xE0nh ph\u1EA7n n\xE0o."
+  answerD: Input.
   correctAnswer: 0

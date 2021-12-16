@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 4
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Ch\u1EBF \u0111\u1ED9 ra kh\u1ECFi h\u1EC7 th\u1ED1ng n\xE0o l\xE0 an
+    to\xE0n cho m\xE1y nh\u1EA5t?"
+  answerA: Hibernate
+  answerB: Stand By
+  answerC: Restart
+  answerD: Turn off
+  correctAnswer: 3

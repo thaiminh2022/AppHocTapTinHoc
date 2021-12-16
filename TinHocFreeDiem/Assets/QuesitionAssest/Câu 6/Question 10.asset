@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 10
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "Vi\u1EBFt ch\u01B0\u01A1ng tr\xECnh l\xE0 qu\xE1 tr\xECnh?."
+  answerA: "T\u1ED5ng h\u1EE3p gi\u1EEFa vi\u1EC7c l\u1EF1a ch\u1ECDn c\xE1ch t\u1ED5
+    ch\u1EE9c d\u1EEF li\u1EC7u v\xE0 s\u1EF1 d\u1EE5ng ng\xF4n ng\u1EEF l\u1EADp
+    tr\xECnh \u0111\u1EC3 di\u1EC5n \u0111\u1EA1t thu\u1EADt to\xE1n."
+  answerB: "D\xF9ng ng\xF4n ng\u1EEF l\u1EADp tr\xECnh \u0111\u1EC3 gi\u1EA3i b\xE0i
+    to\xE1n."
+  answerC: "D\xF9ng ng\xF4n  ng\u1EEF l\u1EADp tr\xECnh th\u1EF1c hi\u1EC7n y\xEAu
+    c\u1EA7u b\xE0i to\xE1n."
+  answerD: "L\xE0 qu\xE1 tr\xECnh d\xF9ng c\xE1ch li\u1EC7t k\xEA ho\u1EB7c s\u01A1
+    \u0111\u1ED3 kh\xF4i \u0111\u1EC3 di\u1EC5n \u0111\u1EA1t thu\u1EADt to\xE1n."
   correctAnswer: 0

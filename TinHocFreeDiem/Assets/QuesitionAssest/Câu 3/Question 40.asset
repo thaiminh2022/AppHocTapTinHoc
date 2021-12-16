@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 40
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "T\u1EA1i m\u1ED7i th\u1EDDi \u0111i\u1EC3m, m\xE1y t\xEDnh th\u1EF1c
+    hi\u1EC7n \u0111\u01B0\u1EE3c bao nhi\xEAu l\u1EC7nh?. "
+  answerA: 1
+  answerB: 2
+  answerC: 3
+  answerD: "Nhi\u1EC1u l\u1EC7nh. "
   correctAnswer: 0

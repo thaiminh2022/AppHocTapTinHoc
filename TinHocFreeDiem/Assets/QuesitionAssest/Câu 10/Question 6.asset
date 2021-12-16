@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 6
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "T\xECm c\xE2u sai trong c\xE1c c\xE2u d\u01B0\u1EDBi \u0111\xE2y khi
+    n\xF3i v\u1EC1 h\u1EC7 \u0111i\u1EC1u h\xE0nh:"
+  answerA: "H\u1EC7 \u0111i\u1EC1u h\xE0nh \u0111\u1EA3m b\u1EA3o giao ti\u1EBFp
+    gi\u1EEFa ng\u01B0\u1EDDi d\xF9ng v\xE0 m\xE1y t\xEDnh"
+  answerB: "Ch\u1EE9c n\u0103ng ch\xEDnh c\u1EE7a h\u1EC7 \u0111i\u1EC1u h\xE0nh
+    l\xE0 th\u1EF1c hi\u1EC7n t\xECm ki\u1EBFm th\xF4ng tin tr\xEAn Internet"
+  answerC: "H\u1EC7 \u0111i\u1EC1u h\xE0nh cung c\u1EA5p c\xE1c ph\u01B0\u01A1ng
+    ti\u1EC7n v\xE0 d\u1ECBch v\u1EE5 \u0111\u1EC3 ng\u01B0\u1EDDi s\u1EED d\u1EE5ng
+    d\u1EC5 d\xE0ng th\u1EF1c hi\u1EC7n ch\u01B0\u01A1ng tr\xECnh, qu\u1EA3n l\xED
+    ch\u1EB7t ch\u1EBD, khai th\xE1c c\xE1c t\xE0i nguy\xEAn c\u1EE7a m\xE1y t\xEDnh
+    m\u1ED9t c\xE1ch t\u1ED1i \u01B0u"
+  answerD: "H\u1EC7 \u0111i\u1EC1u h\xE0nh Windows l\xE0 h\u1EC7 \u0111i\u1EC1u h\xE0nh
+    d\xF9ng cho m\xE1y t\xEDnh c\xE1 nh\xE2n c\u1EE7a h\xE3ng Microsoft"
+  correctAnswer: 1

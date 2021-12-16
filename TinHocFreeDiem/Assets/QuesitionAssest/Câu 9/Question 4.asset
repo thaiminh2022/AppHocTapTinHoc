@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 4
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "L\u0129nh v\u1EF1c tin h\u1ECDc nghi\xEAn c\u1EE9u v\u1EC1 v\u1EA5n
+    \u0111\u1EC1 g\xEC?."
+  answerA: "Nghi\xEAn c\u1EE9u c\u1EA5u tr\xFAc, t\xEDnh ch\u1EA5t chung c\u1EE7a
+    th\xF4ng tin, ph\u01B0\u01A1ng ph\xE1p thu th\u1EADp, x\u1EED l\xED v\xE0 truy\u1EC1n
+    th\xF4ng tin."
+  answerB: "Nghi\xEAn c\u1EE9u c\u1EA5u tr\xFAc, t\xEDnh ch\u1EA5t c\u1EE7a th\xF4ng
+    tin."
+  answerC: "Nghi\xEAn c\u1EE9u t\u1EA5t c\u1EA3 nh\u1EEFng g\xEC li\xEAn quan t\u1EDBi
+    m\xE1y t\xEDnh \u0111i\u1EC7n t\u1EED."
+  answerD: "Nghi\xEAn c\u1EE9u c\xE1c ph\u01B0\u01A1ng ph\xE1p thu nh\u1EADp, x\u1EED
+    l\xED truy\u1EC1n th\xF4ng th\xF4ng tin."
   correctAnswer: 0

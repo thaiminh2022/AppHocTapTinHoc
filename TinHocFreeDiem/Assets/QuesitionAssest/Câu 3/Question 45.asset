@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 45
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "V\u1EDBi m\xE1y vi t\xEDnh, b\u1ED9 nh\u1EDB ngo\xE0i th\u01B0\u1EDDng
+    l\xE0?."
+  answerA: "\u0110\u0129a c\u1EE9ng (HDD, SSD)."
+  answerB: USB.
+  answerC: "\u1ED4 c\u1EE9ng di \u0111\u1ED9ng."
+  answerD: "T\u1EA5t c\u1EA3 \u0111\u1EC1u \u0111\xFAng."
+  correctAnswer: 3

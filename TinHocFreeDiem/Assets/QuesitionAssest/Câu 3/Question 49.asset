@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 49
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Ph\u1EA7n m\u1EC1m l\xE0?. "
+  answerA: "C\xE1c h\u1EC7 \u0111i\u1EC1u h\xE0nh."
+  answerB: "C\xE1c tr\xF2 ch\u01A1i (Games) tr\xEAn m\xE1y t\xEDnh."
+  answerC: "C\xE1c ch\u01B0\u01A1ng tr\xECnh tr\xEAn m\xE1y t\xEDnh."
+  answerD: "C\xE1c d\u1EEF li\u1EC7u trong m\xE1y t\xEDnh."
+  correctAnswer: 2

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 7
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Ph\u1EA7n m\u1EC1m so\u1EA1n gi\xE1o \xE1n \u0111i\u1EC7n t\u1EED Microsoft
+    PowerPoint l\xE0 ph\u1EA7n m\u1EC1m thu\u1ED9c l\u0129nh v\u1EF1c n\xE0o sau
+    \u0111\xE2y?."
+  answerA: "C\xF4ng vi\u1EC7c v\u0103n ph\xF2ng"
+  answerB: "Khoa h\u1ECDc k\u1EF9 thu\u1EADt."
+  answerC: "Qu\u1EA3n l\xFD."
+  answerD: "Gi\xE1o d\u1EE5c."
+  correctAnswer: 3

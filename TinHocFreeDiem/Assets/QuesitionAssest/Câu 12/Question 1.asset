@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 1
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Khi m\xE1y t\xEDnh \u0111ang \u1EDF tr\u1EA1ng th\xE1i ho\u1EA1t \u0111\u1ED9ng
+    (ho\u1EB7c b\u1ECB \"treo\"), \u0111\u1EC3 n\u1EA1p l\u1EA1i h\u1EC7 th\u1ED1ng
+    (kh\u1EDFi \u0111\u1ED9ng l\u1EA1i) ta th\u1EF1c hi\u1EC7n:"
+  answerA: "\u1EA4n n\xFAt c\xF4ng t\u1EAFc ngu\u1ED3n (Power)"
+  answerB: "\u1EA4n t\u1ED5 h\u1EE3p ph\xEDm CTRL+ALT+DELETE (ho\u1EB7c n\xFAt RESET
+    tr\xEAn m\xE1y t\xEDnh)"
+  answerC: "R\xFAt d\xE2y ngu\u1ED3n \u0111i\u1EC7n n\u1ED1i v\xE0o m\xE1y t\xEDnh"
+  answerD: "\u1EA4n ph\xEDm F10"
+  correctAnswer: 1

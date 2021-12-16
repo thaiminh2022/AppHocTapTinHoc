@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 9
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Ch\u1ECDn c\xE1c c\u1EE5m t\u1EEB th\xEDch h\u1EE3p \u0111\u1EC3 \u0111i\u1EC1n
+    l\u1EA7n l\u01B0\u1EE3t v\xE0o c\xE1c ch\u1ED7 tr\u1ED1ng?.\r\nN\u1EC1n tin h\u1ECDc
+    c\u1EE7a m\u1ED9t qu\u1ED1c gia \u0111\u01B0\u1EE3c xem l\xE0 ................
+    n\u1EBFu n\xF3 \u0111\xF3ng g\xF3p v\xE0o n\u1EC1n .................... v\xE0
+    kho t\xE0ng .......................... chung c\u1EE7a th\u1EBF gi\u1EDBi.\r\n"
+  answerA: "hi\u1EC7n \u0111\u1EA1i, c\xF4ng ngh\u1EC7 th\xF4ng tin, ph\u1EA7n m\u1EC1m."
+  answerB: "ph\xE1t tri\u1EC3n, thu nh\u1EADp, ki\u1EBFn th\u1EE9c."
+  answerC: "ph\xE1t tri\u1EC3n, kinh t\u1EBF qu\u1ED1c d\xE2n, tri th\u1EE9c."
+  answerD: "ti\xEAn ti\u1EBFn, kinh t\u1EBF, ph\u1EA7n m\u1EC1m."
+  correctAnswer: 2

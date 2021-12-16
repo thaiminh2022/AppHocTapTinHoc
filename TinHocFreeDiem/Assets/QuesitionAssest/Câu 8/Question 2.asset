@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 2
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Trong c\xE1c ph\xE1t bi\u1EC3u sau \u0111\xE2y, ph\xE1t bi\u1EC3u n\xE0o
+    sai?."
+  answerA: "Th\xF4ng qua m\xE1y t\xEDnh, ta c\xF3 th\u1EC3 thi\u1EBFt k\u1EBF \u0111\u01B0\u1EE3c
+    nhi\u1EC1u thi\u1EBFt b\u1ECB h\u1ED7 tr\u1EE3 cho vi\u1EC7c d\u1EA1y v\xE0 h\u1ECDc."
+  answerB: "M\u1ECDi ti\u1EBFt h\u1ECDc c\xF3 s\u1EED d\u1EE5ng m\xE1y t\xEDnh \u0111\u1EC3u
+    t\u1ED1t h\u01A1n c\xE1c ti\u1EBFt h\u1ECDc th\xF4ng th\u01B0\u1EDDng."
+  answerC: "C\xF3 th\u1EC3 h\u1ECDc t\u1EADp t\u1EEB xa nh\u1EDD h\u1EC7 th\u1ED1ng
+    m\u1EA1ng m\xE1y t\xEDnh to\xE0n c\u1EA7u Internet"
+  answerD: "Trong c\xE1c gi\u1EDD h\u1ECDc c\xF3 s\u1EED d\u1EE5ng m\xE1y t\xEDnh
+    \u0111i\u1EC7n t\u1EED th\xEC bu\u1ED5i h\u1ECDc s\u1EBD sinh \u0111\u1ED9ng
+    ng\u01B0\u1EDDi h\u1ECDc s\u1EBD h\u1EE9ng th\xFA h\u01A1n."
+  correctAnswer: 1

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 5
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Trong vi\u1EC7c gi\u1EA3i b\xE0i to\xE1n tr\xEAn m\xE1y t\xEDnh, x\xE1c
+    \u0111\u1ECBnh b\xE0i to\xE1n l\xE0?."
+  answerA: "X\xE1c \u0111\u1ECBnh Input, Output v\xE0 s\u1EF1 kh\xE1c nhau gi\u1EEFa
+    ch\xFAng."
+  answerB: "X\xE1c \u0111\u1ECBnh Input."
+  answerC: "X\xE1c \u0111\u1ECBnh Input, Output v\xE0 quan h\u1EC7 gi\u1EEFa ch\xFAng."
+  answerD: "X\xE1c \u0111\u1ECBnh Output."
+  correctAnswer: 2

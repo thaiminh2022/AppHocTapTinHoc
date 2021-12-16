@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 4
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Trong thu\u1EADt to\xE1n t\xECm gi\xE1 tr\u1ECB l\u1EDBn nh\u1EA5t c\u1EE7a
+    d\xE3y s\u1ED1 nguy\xEAn b\u01B0\u1EDBc th\u1EE9 2 l\xE0 b\u01B0\u1EDBc n\xE0o
+    sau \u0111\xE2y?."
+  answerA: 'Max<-a1, i<-1. '
+  answerB: Max <- N, i <- 2.
+  answerC: Max <- a1, i <- 2
+  answerD: i <- 1
+  correctAnswer: 2

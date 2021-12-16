@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 15
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Nh\u1EEFng h\xE0nh vi n\xE0o thi\u1EBFu v\u0103n h\xF3a c\u1EE7a h\u1ECDc
+    sinh khi th\u1EF1c h\xE0nh tin h\u1ECDc?."
+  answerA: "Ch\u01B0a \u0111\u01B0\u1EE3c ph\xE9p c\u1EE7a gi\xE1o vi\xEAn khi th\u1EF1c
+    h\xE0nh v\xE0 s\u1EED d\u1EE5ng ph\u1EA7n m\u1EC1m kh\xE1c."
+  answerB: "S\u1EED d\u1EE5ng \u0111i\u1EC7n tho\u1EA1i v\xE0 ch\u01A1i game trong
+    gi\u1EDD th\u1EF1c h\xE0nh."
+  answerC: "\u0102n v\u1EE5ng, u\u1ED1ng n\u01B0\u1EDBc, x\u1EA3 r\xE1c b\u1EEBa
+    b\xE3i v\xE0 ng\u1EE7 trong gi\u1EDD th\u1EF1c h\xE0nh."
+  answerD: "T\u1EA5t c\u1EA3 c\xE1c \xFD tr\xEAn."
+  correctAnswer: 3

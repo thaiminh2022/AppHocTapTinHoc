@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 12
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Thu\u1EADt to\xE1n c\xF3 th\u1EC3 \u0111\u01B0\u1EE3c di\u1EC5n t\u1EA3
+    b\u1EB1ng c\xE1ch?. "
+  answerA: "S\u01A1 \u0111\u1ED3 kh\u1ED1i."
+  answerB: "Ng\xF4n ng\u1EEF l\u1EADp tr\xECnh."
+  answerC: "B\u1EB1ng ng\xF4n ng\u1EEF l\u1EADp tr\xECnh Pascal."
+  answerD: "C\u1EA3 li\u1EC7t k\xEA v\xE0 s\u01A1 \u0111\u1ED3 kh\u1ED1i."
+  correctAnswer: 3

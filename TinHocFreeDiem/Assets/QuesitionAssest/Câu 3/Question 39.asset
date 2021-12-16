@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 39
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "M\u1ED9t h\u1EC7 th\u1ED1ng m\xE1y t\xEDnh c\xF3 bao nhi\xEAu \u1ED5
+    \u0111\u0129a?."
+  answerA: "M\u1ED9t \u1ED5 \u0111\u0129a m\u1EC1m v\xE0 m\u1ED9t \u1ED5 \u0111\u0129a
+    c\u1EE9ng."
+  answerB: "M\u1ED9t \u1ED5 \u0111\u0129a m\u1EC1m, m\u1ED9t \u1ED5 \u0111\u0129a
+    c\u1EE9ng v\xE0 m\u1ED9t \u1ED5 CD-ROM. "
+  answerC: "Tu\u1EF3 theo s\u1EF1 l\u1EAFp \u0111\u1EB7t. "
+  answerD: "M\u1ED9t \u1ED5 \u0111\u0129a m\u1EC1m v\xE0 hai \u1ED5 \u0111\u0129a
+    c\u1EE9ng. "
+  correctAnswer: 2

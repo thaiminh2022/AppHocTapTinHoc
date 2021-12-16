@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 10
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Ph\u1EA7n m\u1EC1m m\xE1y t\xEDnh \u0111\u01B0\u1EE3c chia l\xE0m?."
+  answerA: "1 lo\u1EA1i."
+  answerB: "2 lo\u1EA1i."
+  answerC: "3 lo\u1EA1i."
+  answerD: "4 lo\u1EA1i."
+  correctAnswer: 2

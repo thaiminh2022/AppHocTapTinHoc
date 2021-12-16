@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 4
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Trong c\xE1c m\u1EC7nh \u0111\u1EC1 sau \u0111\xE2y, m\u1EC7nh \u0111\u1EC1
+    n\xE0o sai?."
+  answerA: "Ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng l\xE0 ph\u1EA7n m\u1EC1m gi\u1EA3i
+    quy\u1EBFt nh\u1EEFng c\xF4ng vi\u1EC7c trong th\u1EF1c ti\u1EC5n."
+  answerB: "Ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng l\xE0 ph\u1EA7n m\u1EC1m ti\u1EC7n
+    \xEDch v\xE0 c\u0169ng l\xE0 ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng."
+  answerC: "Ph\u1EA7n m\u1EC1m t\xECm v\xE0 di\u1EC7t virus l\xE0 ph\u1EA7n m\u1EC1m
+    \u1EE9ng d\u1EE5ng \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng tr\xEAn h\u1EA7u h\u1EBFt
+    c\xE1c m\xE1y t\xEDnh."
+  answerD: "Ph\u1EA7n m\u1EC1m gi\u1EA3i tr\xED v\xE0 tr\xF2 ch\u01A1i kh\xF4ng ph\u1EA3i
+    l\xE0 ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng."
+  correctAnswer: 3

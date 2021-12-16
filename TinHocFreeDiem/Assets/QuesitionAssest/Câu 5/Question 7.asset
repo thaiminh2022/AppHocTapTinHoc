@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 7
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "C\xE1c l\u1EC7nh vi\u1EBFt b\u1EB1ng ng\xF4n ng\u1EEF m\xE1y \u1EDF
+    d\u1EA1ng?."
+  answerA: "Nh\u1ECB ph\xE2n ho\u1EB7c hexa."
+  answerB: "Th\u1EADp ph\xE2n ho\u1EB7c hexa."
+  answerC: "Nh\u1ECB ph\xE2n ho\u1EB7c th\u1EADp ph\xE2n."
+  answerD: "B\xE1t ph\xE2n ho\u1EB7c th\u1EADp ph\xE2n."
   correctAnswer: 0

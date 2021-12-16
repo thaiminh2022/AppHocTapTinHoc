@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 13
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Mu\u1ED1n v\u1EBD s\u01A1 \u0111\u1ED3 kh\u1ED1i th\xEC c\u1EA7n nh\u1EEFng
+    k\xED hi\u1EC7u n\xE0o?. "
+  answerA: "D\xF9ng 3 k\xED hi\u1EC7u: H\xECnh thoi, h\xECnh ch\u1EEF nh\u1EADt,
+    h\xECnh \xF4 val."
+  answerB: "D\xF9ng 5 k\xED hi\u1EC7u: H\xECnh ch\u1EEF nh\u1EADt, h\xECnh \xF4 val,
+    h\xECnh thoi, c\xE1c m\u0169i t\xEAn v\xE0 h\xECnh tr\xF2n."
+  answerC: "D\xF9ng 4 k\xED hi\u1EC7u: H\xECnh \xF4 val, h\xECnh thoi, h\xECnh ch\u1EEF
+    nh\u1EADt, c\xE1c m\u0169i t\xEAn."
+  answerD: "D\xF9ng 3 k\xED hi\u1EC7u: H\xECnh \xF4 val, h\xECnh thoi v\xE0 h\xECnh
+    m\u0169i t\xEAn."
+  correctAnswer: 2

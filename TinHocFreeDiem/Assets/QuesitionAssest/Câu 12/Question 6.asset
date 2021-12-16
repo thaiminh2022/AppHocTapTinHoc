@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 6
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "\u0110\u1EC3 tr\xE1nh m\u1EA5t m\xE1t t\xE0i nguy\xEAn v\xE0 chu\u1EA9n
+    b\u1ECB cho l\u1EA7n l\xE0m vi\u1EC7c ti\u1EBFp theo \u0111\u01B0\u1EE3c thu\u1EADn
+    ti\u1EC7n, khi ra "
+  answerA: "\u1EA4n c\xF4ng t\u1EAFc ngu\u1ED3n (n\xFAt Power) \u0111\u1EC3 t\u1EAFt
+    m\xE1y t\xEDnh"
+  answerB: "Ch\u1ECDn t\xF9y ch\u1ECDn STAND BY"
+  answerC: "Ch\u1ECDn t\xF9y ch\u1ECDn SHUT DOWN"
+  answerD: "Ch\u1ECDn t\xF9y ch\u1ECDn RESTART"
+  correctAnswer: 2

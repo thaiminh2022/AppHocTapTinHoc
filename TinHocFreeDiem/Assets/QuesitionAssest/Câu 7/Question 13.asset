@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 13
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Theo em, c\xE1c ph\u1EA7n m\u1EC1m sau thu\u1ED9c nh\xF3m ph\u1EA7n
+    m\u1EC1m n\xE0o: Microsoft Word, Microsoft Excel, Microsoft Access, Microsoft
+    PowerPoint?."
+  answerA: "Nh\xF3m ph\u1EA7n m\u1EC1m h\u1EC7 th\u1ED1ng."
+  answerB: "Nh\xF3m ph\u1EA7n m\u1EC1m c\u01A1 s\u1EDF d\u1EEF li\u1EC7u."
+  answerC: "Nh\xF3m ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng"
+  answerD: "Nh\xF3m ph\u1EA7n m\u1EC1m h\u1EC7 \u0111i\u1EC1u h\xE0nh"
+  correctAnswer: 2

@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 11
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "T\u1EEB n\xE0o c\xF2n thi\u1EBFu \u1EDF ph\u1EA7n d\u1EA5u ch\u1EA5m
+    sau?.\r\n  \"\u2026(1) l\xE0 m\u1ED9t d\xE3y h\u1EEFu h\u1EA1n c\xE1c \u2026(2)
+    \u0111\u01B0\u1EE3c s\u1EAFp x\u1EBFp theo m\u1ED9 tr\u1EADt t\u1EF1 x\xE1c \u0111\u1ECBnh
+    sao cho khi th\u1EF1c hi\u1EC7n d\xE3y c\xE1c thao t\xE1c \u1EA5y, t\u1EEB \u2026(3)
+    c\u1EE7a b\xE0i to\xE1n, ta nh\u1EADn \u0111\u01B0\u1EE3c \u2026(4) c\u1EA7n
+    t\xECm\". L\u1EA7n l\u01B0\u1EE3t \u0111i\u1EC1n c\xE1c c\u1EE5m t\u1EEB c\xF2n
+    thi\u1EBFu l\xE0?. \r\n"
+  answerA: "Thu\u1EADt to\xE1n - thao t\xE1c - Input \u2013 OutPut."
+  answerB: "Thu\u1EADt to\xE1n - thao t\xE1c - Output \u2013 Input."
+  answerC: "Input - OutPut -  thu\u1EADt to\xE1n - thao t\xE1c."
+  answerD: "Thao t\xE1c - Thu\u1EADt to\xE1n- Input \u2013 OutPut"
   correctAnswer: 0

@@ -12,9 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 3
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Trong c\xE1c ph\xE1t bi\u1EC3u sau, ph\xE1t bi\u1EC3u n\xE0o \u0111\xFAng
+    nh\u1EA5t v\u1EC1 ng\xF4n ng\u1EEF l\u1EADp tr\xECnh b\u1EADc cao?. "
+  answerA: "L\xE0 lo\u1EA1i ng\xF4n ng\u1EEF c\xF3 th\u1EC3 m\xF4 t\u1EA3 \u0111\u01B0\u1EE3c
+    m\u1ECDi thu\u1EADt to\xE1n."
+  answerB: "L\xE0 lo\u1EA1i ng\xF4n ng\u1EEF m\xF4 t\u1EA3 thu\u1EADt to\xE1n d\u01B0\u1EDBi
+    d\u1EA1ng v\u0103n b\u1EA3n theo nh\u1EEFng quy \u01B0\u1EDBc n\xE0o \u0111\xF3
+    v\xE0 ho\xE0n to\xE0n kh\xF4ng ph\u1EE5 thu\u1ED9c v\xE0o c\xE1c m\xE1y t\xEDnh
+    c\u1EE5 th\u1EC3."
+  answerC: "L\xE0 ng\xF4n ng\u1EEF g\u1EA7n v\u1EDBi ng\xF4n ng\u1EEF t\u1EF1 nhi\xEAn,
+    c\xF3 t\xEDnh \u0111\u1ED9c l\u1EADp cao v\xE0 kh\xF4ng ph\u1EE5 thu\u1ED9c v\xE0o
+    c\xE1c lo\u1EA1i m\xE1y."
+  answerD: "L\xE0 lo\u1EA1i ng\xF4n ng\u1EEF m\xE0 m\xE1y t\xEDnh kh\xF4ng th\u1EF1c
+    hi\u1EC7n tr\u1EF1c ti\u1EBFp \u0111\u01B0\u1EE3c. Tr\u01B0\u1EDBc khi th\u1EF1c
+    hi\u1EC7n ph\u1EA3i d\u1ECBch ra ng\xF4n ng\u1EEF m\xE1y."
+  correctAnswer: 2

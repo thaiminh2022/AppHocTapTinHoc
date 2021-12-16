@@ -12,9 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 8
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: ". C\xE1c b\u01B0\u1EDBc gi\u1EA3i b\xE0i to\xE1n tr\xEAn m\xE1y t\xEDnh
+    \u0111\u01B0\u1EE3c ti\u1EBFn h\xE0nh theo th\u1EE9 t\u1EF1 n\xE0o sau \u0111\xE2y?."
+  answerA: "X\xE1c \u0111\u1ECBnh b\xE0i to\xE1n - L\u1EF1a ch\u1ECDn thu\u1EADt
+    to\xE1n - Vi\u1EBFt ch\u01B0\u01A1ng tr\xECnh - Hi\u1EC7u ch\u1EC9nh - Vi\u1EBFt
+    t\xE0i li\u1EC7u."
+  answerB: "X\xE1c \u0111\u1ECBnh b\xE0i to\xE1n - Vi\u1EBFt ch\u01B0\u01A1ng tr\xECnh
+    - L\u1EF1a ch\u1ECDn thu\u1EADt to\xE1n  - Vi\u1EBFt t\xE0i li\u1EC7u."
+  answerC: "L\u1EF1a ch\u1ECDn thu\u1EADt to\xE1n - X\xE1c \u0111\u1ECBnh b\xE0i
+    to\xE1n - Vi\u1EBFt ch\u01B0\u01A1ng tr\xECnh - Hi\u1EC7u ch\u1EC9nh - Vi\u1EBFt
+    t\xE0i li\u1EC7u."
+  answerD: "Vi\u1EBFt ch\u01B0\u01A1ng tr\xECnh - Hi\u1EC7u ch\u1EC9nh - Vi\u1EBFt
+    t\xE0i li\u1EC7u."
   correctAnswer: 0

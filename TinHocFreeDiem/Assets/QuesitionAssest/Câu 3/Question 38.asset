@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 38
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "B\u1ED9 nh\u1EDB n\xE0o trong c\xE1c b\u1ED9 nh\u1EDB sau thu\u1ED9c
+    lo\u1EA1i truy c\u1EADp ng\u1EABu nhi\xEAn?."
+  answerA: "B\u0103ng t\u1EEB. "
+  answerB: ".  \u0110\u0129a t\u1EEB. "
+  answerC: "\u0110\u0129a CD. "
+  answerD: 'RAM. '
+  correctAnswer: 3

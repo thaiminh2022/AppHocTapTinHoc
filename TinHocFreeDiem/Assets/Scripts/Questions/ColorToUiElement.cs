@@ -10,7 +10,6 @@ public class ColorToUiElement : MonoBehaviour
     private void Start()
     {
         userChapters = GetComponent<UserChapters>();
-
         ChangeColorToImge();
     }
     private void ChangeColorToImge()

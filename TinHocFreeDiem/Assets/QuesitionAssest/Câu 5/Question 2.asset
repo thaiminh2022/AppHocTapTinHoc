@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 2
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Ng\xF4n ng\u1EEF  trong c\xE1c l\u1EC7nh s\u1EED d\u1EE5ng m\u1ED9t
+    s\u1ED1 t\u1EEB ti\u1EBFng Vi\u1EC7t."
+  answerA: "Ng\xF4n ng\u1EEF  trong c\xE1c l\u1EC7nh s\u1EED d\u1EE5ng m\u1ED9t s\u1ED1
+    t\u1EEB ti\u1EBFng Anh."
+  answerB: "Ng\xF4n ng\u1EEF m\xE1y t\xEDnh c\xF3 th\u1EC3 tr\u1EF1c ti\u1EBFp hi\u1EC3u
+    \u0111\u01B0\u1EE3c."
+  answerC: "Ng\xF4n ng\u1EEF m\xE1y t\xEDnh c\xF3 th\u1EC3 tr\u1EF1c ti\u1EBFp hi\u1EC3u
+    \u0111\u01B0\u1EE3c."
+  answerD: "Ng\xF4n ng\u1EEF g\u1EA7n v\u1EDBi ng\xF4n ng\u1EEF t\u1EF1 nhi\xEAn,
+    c\xF3 t\xEDnh \u0111\u1ED9c l\u1EADp cao, \xEDt ph\u1EE5 thu\u1ED9c v\xE0o c\xE1c
+    lo\u1EA1i m\xE1y c\u1EE5 th\u1EC3."
+  correctAnswer: 1

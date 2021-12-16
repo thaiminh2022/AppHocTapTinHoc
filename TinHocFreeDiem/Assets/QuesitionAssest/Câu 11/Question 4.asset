@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 4
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Trong tin h\u1ECDc, t\u1EC7p (t\u1EADp tin) l\xE0 kh\xE1i ni\u1EC7m
+    ch\u1EC9"
+  answerA: "M\u1ED9t v\u0103n b\u1EA3n"
+  answerB: "M\u1ED9t \u0111\u01A1n v\u1ECB l\u01B0u tr\u1EEF th\xF4ng tin tr\xEAn
+    b\u1ED9 nh\u1EDB ngo\xE0i"
+  answerC: "M\u1ED9t g\xF3i tin"
+  answerD: "M\u1ED9t trang web"
+  correctAnswer: 1

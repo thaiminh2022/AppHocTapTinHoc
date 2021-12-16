@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 48
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Hai thi\u1EBFt b\u1ECB n\xE0o h\u1ED7 tr\u1EE3 cho vi\u1EC7c l\u01B0u
+    tr\u1EEF th\xF4ng tin trong m\xE1y t\xEDnh?."
+  answerA: "B\xE0n ph\xEDm v\xE0 m\xE1y Scanner."
+  answerB: "CD-ROM v\xE0 m\xE0n h\xECnh."
+  answerC: "\u0110\u0129a c\u1EE9ng SSD v\xE0 USB."
+  answerD: "CPU v\xE0 RAM"
+  correctAnswer: 2

@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 16
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Lu\u1EADt An ninh m\u1EA1ng \u0111\u01B0\u1EE3c Qu\u1ED1c h\u1ED9i n\u01B0\u1EDBc
+    C\u1ED9ng h\xF2a x\xE3 h\u1ED9i ch\u1EE7 ngh\u0129a Vi\u1EC7t Nam kh\xF3a XIV,
+    k\u1EF3 h\u1EE3p th\u1EE9 5 th\xF4ng qua v\xE0o ng\xE0y 12 th\xE1ng 6 n\u0103m
+    2018 v\xE0 c\xF3 hi\u1EC7u l\u1EF1c v\xE0o ng\xE0y th\xE1ng n\u0103m n\xE0o?."
+  answerA: 01/08/2018.
+  answerB: 01/10/2018.
+  answerC: 01/12/2018.
+  answerD: 01/01/2019.
+  correctAnswer: 3

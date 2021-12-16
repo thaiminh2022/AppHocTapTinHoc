@@ -15,7 +15,7 @@ MonoBehaviour:
   question: "H\xE3y ch\u1ECDn c\xE2u \u0111\xFAng: B\u1ED9 nh\u1EDB trong \u2026\u2026\u2026?."
   answerA: "l\u01B0u tr\u1EEF th\xF4ng tin c\u1EA7n thi\u1EBFt \u0111\u1EC3 m\xE1y
     t\xEDnh ho\u1EA1t \u0111\u1ED9ng v\xE0 d\u1EEF li\u1EC7u trong qu\xE1 tr\xECnh
-    x\u1EED l\xED\t."
+    x\u1EED l\xED."
   answerB: "l\xE0 b\u1ED9 nh\u1EDB ch\u1EC9 cho ph\xE9p \u0111\u1ECDc d\u1EEF li\u1EC7u."
   answerC: "l\xE0 n\u01A1i x\u1EED l\xED d\u1EEF li\u1EC7u."
   answerD: "g\u1ED3m c\xF3 2 ph\u1EA7n RAM (b\u1ED9 nh\u1EDB truy c\u1EADp ng\u1EABu

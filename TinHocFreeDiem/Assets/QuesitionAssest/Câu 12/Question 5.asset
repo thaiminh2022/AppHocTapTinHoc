@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 5
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "Ph\xE1t bi\u1EC3u n\xE0o l\xE0 ch\u01B0a ch\xEDnh x\xE1c khi n\xF3i
+    v\u1EC1 ch\u1EBF \u0111\u1ED9 Hibernate?"
+  answerA: "Ch\u1ECDn Hibernate, h\u1EC7 \u0111i\u1EC1u h\xE0nh s\u1EBD sao l\u01B0u
+    to\xE0n b\u1ED9 th\xF4ng tin trong RAM"
+  answerB: "Hibernate cho ph\xE9p ng\u01B0\u1EDDi s\u1EED d\u1EE5ng t\u1EA1m th\u1EDDi
+    kh\xF4ng d\xF9ng m\xE1y trong th\u1EDDi gian 2 - 5 gi\u1EDD"
+  answerC: "Mu\u1ED1n s\u1EED d\u1EE5ng ch\u1EE9c n\u0103ng Hibernate, \u1ED5 c\u1EE9ng
+    ph\u1EA3i c\xF3 dung l\u01B0\u1EE3ng l\u1EDBn h\u01A1n ho\u1EB7c b\u1EB1ng RAM"
+  answerD: "Hibernate l\xE0 ch\u1EE9c n\u0103ng c\u1EE7a h\u1EC7 \u0111i\u1EC1u h\xE0nh
+    nh\u01B0ng c\xF3 m\u1ED9t s\u1ED1 m\xE1y kh\xF4ng c\xF3 ch\u1EE9c n\u0103ng n\xE0y"
   correctAnswer: 0

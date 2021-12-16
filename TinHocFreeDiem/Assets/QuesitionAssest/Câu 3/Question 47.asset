@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 47
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "B\u1ED9 ph\u1EADn n\xE0o sau \u0111\xE2y kh\xF4ng c\xF3 kh\u1EA3 n\u0103ng
+    l\u01B0u d\u1EEF li\u1EC7u?."
+  answerA: "\u0110\u0129a Compact."
+  answerB: RAM.
+  answerC: USB.
+  answerD: "M\xE1y chi\u1EBFu."
+  correctAnswer: 3

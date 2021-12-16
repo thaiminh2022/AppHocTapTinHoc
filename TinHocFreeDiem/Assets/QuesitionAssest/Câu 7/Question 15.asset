@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 15
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Ch\u1ECDn c\xE1c c\u1EE5m t\u1EEB th\xEDch h\u1EE3p \u0111\u1EC3 \u0111i\u1EC1n
+    v\xE0o ch\u1ED7 tr\u1ED1ng:.\r\n         Ph\u1EA7n m\u1EC1m h\u1EC7 th\u1ED1ng
+    l\xE0 ph\u1EA7n m\u1EC1m  ............. theo y\xEAu c\u1EA7u c\u1EE7a ch\u01B0\u01A1ng
+    tr\xECnh kh\xE1c trong ............... c\u1EE7a m\xE1y.\r\n"
+  answerA: "cung c\u1EA5p c\xE1c ti\u1EC7n \xEDch, qu\xE1 tr\xECnh ho\u1EA1t \u0111\u1ED9ng. "
+  answerB: "cung c\u1EA5p c\xE1c d\u1ECBch v\u1EE5, qu\xE1 tr\xECnh ho\u1EA1t \u0111\u1ED9ng."
+  answerC: "th\u1EF1c hi\xEAn, h\u1EC7 th\u1ED1ng."
+  answerD: "cung c\u1EA5p thi\u1EBFt b\u1ECB ngo\u1EA1i vi, qu\xE1 tr\xECnh ho\u1EA1t
+    \u0111\u1ED9ng."
+  correctAnswer: 1

@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 1
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "B\u01B0\u1EDBc 1: Nh\u1EADp N, c\xE1c s\u1ED1 h\u1EA1ng a1 , a2 , \u2026,
+    aN;.\r\n    B\u01B0\u1EDBc 2: Min =  ai , i = 2;.\r\n    B\u01B0\u1EDBc 3: N\u1EBFu
+    i > N th\xEC \u0111\u01B0a \u0111\u01B0a ra gi\xE1 tr\u1ECB Min r\u1ED3i k\u1EBFt
+    th\xFAc;.\r\n    B\u01B0\u1EDBc 4:.\r\n    \tB\u01B0\u1EDBc 4.1: N\u1EBFu ai
+    > Min th\xEC Min = ai ;.\r\n\tB\u01B0\u1EDBc 4.2: i = i + 1, quay l\u1EA1i b\u01B0\u1EDBc
+    3. \r\n\r\n    H\xE3y ch\u1ECDn nh\u1EEFng b\u01B0\u1EDBc sai trong thu\u1EADt
+    to\xE1n tr\xEAn:.\r\n"
+  answerA: "B\u01B0\u1EDBc 4.2.  "
+  answerB: "B\u01B0\u1EDBc 4.1. "
+  answerC: "B\u01B0\u1EDBc 3.  "
+  answerD: "B\u01B0\u1EDBc 2."
+  correctAnswer: 1

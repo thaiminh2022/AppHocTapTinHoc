@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 8
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Trong c\xE1c ph\xE1t bi\u1EC3u sau, ph\xE1t bi\u1EC3u n\xE0o \u0111\xFAng?."
+  answerA: "M\u1ED9t thu\u1EADt to\xE1n c\xF3 th\u1EC3 gi\u1EA3i nhi\u1EC1u b\xE0i
+    to\xE1n."
+  answerB: "M\u1ED7i thu\u1EADt to\xE1n ch\u1EC9 gi\u1EA3i m\u1ED9t b\xE0i to\xE1n
+    n\xE0o \u0111\xF3, nh\u01B0ng c\xF3 nhi\u1EC1u thu\u1EADt to\xE1n kh\xE1c nhau
+    c\xF9ng gi\u1EA3i m\u1ED9t b\xE0i to\xE1n"
+  answerC: "M\u1ED9t b\xE0i to\xE1n ch\u1EC9 c\xF3 m\u1ED9t thu\u1EADt to\xE1n \u0111\u1EC3
+    gi\u1EA3i."
+  answerD: "Khi thi\u1EBFt k\u1EBF ho\u1EB7c l\u1EF1a ch\u1ECDn thu\u1EADt to\xE1n,
+    ng\u01B0\u1EDDi ta kh\xF4ng c\u1EA7n quan t\xE2m \u0111\u1EBFn th\u1EDDi gian
+    th\u1EF1c hi\u1EC7n."
+  correctAnswer: 1

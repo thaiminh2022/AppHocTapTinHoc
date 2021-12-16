@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 4
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "H\xE3y ch\u1ECDn c\xE2u ph\xE1t bi\u1EC3u \u0111\xFAng nh\u1EA5t khi
+    n\xF3i v\u1EC1 h\u1EC7 \u0111i\u1EC1u h\xE0nh"
+  answerA: "M\u1ED7i h\u1EC7 \u0111i\u1EC1u h\xE0nh ph\u1EA3i c\xF3 th\xE0nh ph\u1EA7n
+    \u0111\u1EC3 k\u1EBFt n\u1ED1i Internet, trao \u0111\u1ED5i th\u01B0 \u0111i\u1EC7n
+    t\u1EED"
+  answerB: "H\u1EC7 \u0111i\u1EC1u h\xE0nh cung c\u1EA5p m\xF4i tr\u01B0\u1EDDng
+    giao ti\u1EBFp gi\u1EEFa ng\u01B0\u1EDDi d\xF9ng v\xE0 h\u1EC7 th\u1ED1ng"
+  answerC: "H\u1EC7 \u0111i\u1EC1u h\xE0nh th\u01B0\u1EDDng \u0111\u01B0\u1EE3c c\xE0i
+    \u0111\u1EB7t s\u1EB5n t\u1EEB khi s\u1EA3n xu\u1EA5t m\xE1y t\xEDnh"
+  answerD: "M\u1ED9t ph\u01B0\u01A1ng \xE1n kh\xE1c"
+  correctAnswer: 1

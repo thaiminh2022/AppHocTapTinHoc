@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 7
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "Trong vi\u1EC7c gi\u1EA3i b\xE0i to\xE1n tr\xEAn m\xE1y t\xEDnh, vi\u1EBFt
+    ch\u01B0\u01A1ng tr\xECnh l\xE0?."
+  answerA: "Ch\u1ECDn ng\xF4n ng\u1EEF ph\xF9 h\u1EE3p v\u1EDBi thu\u1EADt to\xE1n
+    v\xE0 t\u1ED5 ch\u1EE9c d\u1EEF li\u1EC7u."
+  answerB: "Ch\u1ECDn Input v\xE0 d\u1EEF li\u1EC7u."
+  answerC: "Ch\u1ECDn ng\xF4n ng\u1EEF ph\xF9 h\u1EE3p v\u1EDBi thu\u1EADt to\xE1n
+    v\xE0 Output."
+  answerD: "Ch\u1ECDn d\u1EEF li\u1EC7u, Input v\xE0 Output."
   correctAnswer: 0

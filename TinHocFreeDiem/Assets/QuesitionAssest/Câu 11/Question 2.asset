@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 2
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Gi\u1EEFa ph\u1EA7n t\xEAn v\xE0 ph\u1EA7n m\u1EDF r\u1ED9ng c\u1EE7a
+    t\u1EC7p \u0111\u01B0\u1EE3c ph\xE2n c\xE1ch b\u1EDFi d\u1EA5u"
+  answerA: "D\u1EA5u hai ch\u1EA5m (:)"
+  answerB: "D\u1EA5u sao (*)"
+  answerC: "D\u1EA5u ph\u1EA9y (,)"
+  answerD: "D\u1EA5u ch\u1EA5m (.)"
+  correctAnswer: 3

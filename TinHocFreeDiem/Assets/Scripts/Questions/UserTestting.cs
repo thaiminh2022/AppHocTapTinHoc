@@ -36,6 +36,7 @@ public class UserTestting : MonoBehaviour
     public bool isViewingAnswer = false;
     [SerializeField] GameObject noChapter;
     [SerializeField] GameObject[] deactiveWhenNoChapter;
+    [SerializeField] Image backgroundToChange;
 
     private void Start()
     {
@@ -63,12 +64,13 @@ public class UserTestting : MonoBehaviour
         // !If the choosen index is -1. Do a SpecialTest
         if (choosenIndex == -1)
         {
+            backgroundToChange.sprite = null;
+
             DoSpecialTest();
             return;
         }
 
-
-
+        backgroundToChange.sprite = null;
         AddQuestionToMultipleChoiceContent(choosenIndex);
 
 

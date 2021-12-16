@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 35
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "H\xE3y ch\u1ECDn ph\u01B0\u01A1ng \xE1n gh\xE9p \u0111\xFAng nh\u1EA5t:
+    C\xE1c b\u1ED9 ph\u1EADn ch\xEDnh trong s\u01A1 \u0111\u1ED3 c\u1EA5u tr\xFAc
+    m\xE1y t\xEDnh g\u1ED3m?."
+  answerA: "CPU, b\u1ED9 nh\u1EDB trong/ngo\xE0i, thi\u1EBFt b\u1ECB v\xE0o/ra. "
+  answerB: "M\xE0n h\xECnh v\xE0 m\xE1y in. "
+  answerC: "M\xE1y qu\xE9t v\xE0 \u1ED5 c\u1EE9ng. "
+  answerD: "B\xE0n ph\xEDm v\xE0 con chu\u1ED9t. "
   correctAnswer: 0

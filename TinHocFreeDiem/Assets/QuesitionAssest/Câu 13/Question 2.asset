@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 2
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Trong c\xE1c m\u1EC7nh \u0111\u1EC1 sau m\u1EC7nh \u0111\u1EC1 n\xE0o
+    \u0111\xFAng?"
+  answerA: "MS- DOS l\xE0 h\u1EC7 \u0111i\u1EC1u h\xE0nh \u0111\u01A1n nhi\u1EC7m
+    m\u1ED9t ng\u01B0\u1EDDi d\xF9ng, s\u1EED d\u1EE5ng giao di\u1EC7n d\xF2ng l\u1EC7nh"
+  answerB: "Windows l\xE0 h\u1EC7 \u0111i\u1EC1u h\xE0nh \u0111a nhi\u1EC7m, s\u1EED
+    d\u1EE5ng giao di\u1EC7n \u0111\u1ED3 h\u1ECDa d\u1EF1a tr\xEAn c\u01A1 s\u1EDF
+    c\xE1c c\u1EEDa s\u1ED5, b\u1EA3ng ch\u1ECDn, h\u1ED9p tho\u1EA1i, bi\u1EC3u
+    t\u01B0\u1EE3ng v\xE0 c\u01A1 ch\u1EBF ch\u1EC9 th\u1ECB b\u1EB1ng chu\u1ED9t"
+  answerC: "Unix l\xE0 h\u1EC7 \u0111i\u1EC1u h\xE0nh \u0111a nhi\u1EC7m nhi\u1EC1u
+    ng\u01B0\u1EDDi d\xF9ng \u0111\u01B0\u1EE3c thi\u1EBFt k\u1EBF cho m\xE1y l\u1EDBn.
+    Linux l\xE0 h\u1EC7 \u0111i\u1EC1u h\xE0nh \u0111\u01B0\u1EE3c ph\xE1t tri\u1EC3n
+    tr\xEAn Unix, c\xF3 m\xE3 ngu\u1ED3n m\u1EDF"
+  answerD: "C\u1EA3 3 ph\xE1t bi\u1EC3u tr\xEAn \u0111\u1EC1u \u0111\xFAng."
+  correctAnswer: 3

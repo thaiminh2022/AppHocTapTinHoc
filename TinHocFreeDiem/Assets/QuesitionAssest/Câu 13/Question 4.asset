@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 4
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "H\u1EC7 \u0111i\u1EC1u h\xE0nh \u0111\u01B0\u1EE3c kh\u1EDFi \u0111\u1ED9ng:"
+  answerA: "Trong khi c\xE1c ch\u01B0\u01A1ng tr\xECnh \u1EE9ng d\u1EE5ng \u0111\u01B0\u1EE3c
+    th\u1EF1c hi\u1EC7n"
+  answerB: "Sau khi c\xE1c ch\u01B0\u01A1ng tr\xECnh \u1EE9ng d\u1EE5ng \u0111\u01B0\u1EE3c
+    th\u1EF1c hi\u1EC7n."
+  answerC: "Tr\u01B0\u1EDBc khi c\xE1c ch\u01B0\u01A1ng tr\xECnh \u1EE9ng d\u1EE5ng
+    \u0111\u01B0\u1EE3c th\u1EF1c hi\u1EC7n."
+  answerD: "B\u1EA5t c\u1EE9 l\xFAc n\xE0o."
+  correctAnswer: 2

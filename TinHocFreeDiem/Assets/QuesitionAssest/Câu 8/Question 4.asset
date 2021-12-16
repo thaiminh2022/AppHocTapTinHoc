@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 4
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Th\u01B0\u01A1ng m\u1EA1i \u0111i\u1EC7n t\u1EED (E - commerce) thu\u1ED9c
+    \u1EE9ng d\u1EE5ng n\xE0o c\u1EE7a tin h\u1ECDc?."
+  answerA: "H\u1ED7 tr\u1EE3 qu\u1EA3n l\xFD. "
+  answerB: "Truy\u1EC1n th\xF4ng."
+  answerC: "Gi\xE1o d\u1EE5c"
+  answerD: "T\u1EF1 \u0111\u1ED9ng h\xF3a \u0111i\u1EC1u ki\u1EC3n."
+  correctAnswer: 1

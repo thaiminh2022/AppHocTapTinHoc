@@ -17,7 +17,7 @@ public class Welcome : MonoBehaviour
 
         return t;
     }
-    private void Update()
+    private void Start()
     {
         WelcomeLogic();
     }

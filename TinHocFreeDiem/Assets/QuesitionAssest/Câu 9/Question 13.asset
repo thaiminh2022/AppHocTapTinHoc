@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 13
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Nh\u1EEFng h\xE0nh vi n\xE0o vi ph\u1EA1m ph\xE1p lu\u1EADt trong s\u1EED
+    d\u1EE5ng Tin h\u1ECDc?."
+  answerA: "Tung nh\u1EEFng h\xECnh \u1EA3nh, phim \u0111\u1ED3i tr\u1ECB l\xEAn
+    m\u1EA1ng."
+  answerB: "X\xE2m ph\u1EA1m th\xF4ng tin c\xE1 nh\xE2n ho\u1EB7c c\u1EE7a t\u1EADp
+    th\u1EC3 n\xE0o \u0111\xF3. Sao ch\xE9p b\u1EA3n quy\u1EC1n kh\xF4ng h\u1EE3p
+    ph\xE1p."
+  answerC: "L\xE2y lan virus qua m\u1EA1ng."
+  answerD: "T\u1EA5t c\u1EA3 \u0111\xE1p \xE1n tr\xEAn."
+  correctAnswer: 3

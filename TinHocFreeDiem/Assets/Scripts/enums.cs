@@ -12,3 +12,9 @@ public enum MoveDirEntry
     Right,
     Bottom
 }
+public enum TimeDesination
+{
+    Day,
+    Noon,
+    Night,
+}

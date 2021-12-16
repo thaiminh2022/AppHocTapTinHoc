@@ -12,9 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 18
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Nh\u1EEFng h\xE0nh vi n\xE0o vi ph\u1EA1m Lu\u1EADt An ninh m\u1EA1ng?."
+  answerA: "Tuy\xEAn truy\u1EC1n ch\u1ED1ng Nh\xE0 n\u01B0\u1EDBc C\u1ED9ng h\xF2a
+    x\xE3 h\u1ED9i ch\u1EE7 ngh\u0129a Vi\u1EC7t Nam."
+  answerB: "Ho\u1EA1t \u0111\u1ED9ng m\u1EA1i d\xE2m, t\u1EC7 n\u1EA1n x\xE3 h\u1ED9i,
+    \u0111\u0103ng t\u1EA3i th\xF4ng tin d\xE2m \xF4, \u0111\u1ED3i tr\u1EE5y, t\u1ED9i
+    \xE1c, ph\xE1 ho\u1EA1i thu\u1EA7n phong, m\u1EF9 t\u1EE5c c\u1EE7a d\xE2n t\u1ED9c,
+    \u0111\u1EA1o \u0111\u1EE9c x\xE3 h\u1ED9i, s\u1EE9c kh\u1ECFe c\u1ED9ng \u0111\u1ED3ng"
+  answerC: "Xuy\xEAn t\u1EA1c l\u1ECBch s\u1EED, x\xFAc ph\u1EA1m t\xF4n gi\xE1o,
+    ph\xE2n bi\u1EC7t \u0111\u1ED1i x\u1EED v\u1EC1 gi\u1EDBi, ph\xE2n bi\u1EC7t
+    ch\u1EE7ng t\u1ED9c, x\xE2m ph\u1EA1m quy\u1EC1n v\xE0 l\u1EE3i \xEDch h\u1EE3p
+    ph\xE1p c\u1EE7a t\u1ED5 ch\u1EE9c, c\xE1 nh\xE2n kh\xE1c."
+  answerD: "T\u1EA5t c\u1EA3 c\xE1c \xFD tr\xEAn \u0111\u1EC1u \u0111\xFAng."
+  correctAnswer: 3

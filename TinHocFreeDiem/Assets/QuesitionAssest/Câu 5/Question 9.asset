@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 9
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Trong c\xE1c ph\xE1t bi\u1EC3u sau \u0111\xE2y, ph\xE1t bi\u1EC3u n\xE0o
+    \u0111\xFAng?."
+  answerA: "Trong ng\xF4n ng\u1EEF m\xE1y c\xE1c l\u1EC7nh vi\u1EBFt d\u01B0\u1EDBi
+    d\u1EA1ng nh\u1ECB ph\xE2n.     "
+  answerB: "H\u1EE3p ng\u1EEF g\u1EA7n v\u1EDBi ng\xF4n ng\u1EEF m\xE1y nh\u01B0ng
+    cho ph\xE9p ng\u01B0\u1EDDi s\u1EED d\u1EE5ng m\u1ED9t s\u1ED1 t\u1EEB (th\u01B0\u1EDDng
+    l\xE0 vi\u1EBFt t\u1EAFt c\u1EE7a ti\u1EBFng Anh) \u0111\u1EC3 vi\u1EBFt c\xE1c
+    l\u1EC7nh."
+  answerC: "M\u1ED7i ng\xF4n ng\u1EEF l\u1EADp tr\xECnh b\u1EADc cao ho\u1EB7c h\u1EE3p
+    ng\u1EEF \u0111\u1EC1u c\u1EA7n m\u1ED9t ch\u01B0\u01A1ng tr\xECnh d\u1ECBch
+    \u0111\u1EC3 d\u1ECBch ch\u01B0\u01A1ng tr\xECnh vi\u1EBFt b\u1EB1ng ng\xF4n
+    ng\u1EEF \u0111\xF3 sang ng\xF4n ng\u1EEF m\xE1y."
+  answerD: "T\u1EA5t c\u1EA3 c\xE1c c\xE2u \u0111\u1EC1u \u0111\xFAng."
+  correctAnswer: 3

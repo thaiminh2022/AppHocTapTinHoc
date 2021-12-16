@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 8
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "Ng\xF4n ng\u1EEF l\u1EADp tr\xECnh Pascal thu\u1ED9c lo\u1EA1i?."
+  answerA: "Ng\xF4n ng\u1EEF b\u1EADc cao."
+  answerB: "H\u1EE3p ng\u1EEF."
+  answerC: "Ng\xF4n ng\u1EEF m\xE1y."
+  answerD: "Ng\xF4n ng\u1EEF l\u1EADp tr\xECnh b\u1EADc th\u1EA5p."
   correctAnswer: 0

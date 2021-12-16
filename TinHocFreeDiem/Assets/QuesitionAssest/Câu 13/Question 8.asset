@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 8
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
+  question: "Ch\u1ECDn c\xE2u \u0111\xFAng trong c\xE1c c\xE2u sau khi n\xF3i v\u1EC1
+    h\u1EC7 \u0111i\u1EC1u h\xE0nh Windows:"
+  answerA: "H\u1EC7 \u0111i\u1EC1u h\xE0nh Windows c\xF3 giao di\u1EC7n \u0111\u1ED3
+    h\u1ECDa"
+  answerB: "Windows l\xE0 h\u1EC7 \u0111i\u1EC1u h\xE0nh \u0111\u01A1n nhi\u1EC7m"
+  answerC: "H\u1EC7 \u0111i\u1EC1u h\xE0nh Windows ra m\u1EAFt th\xE1ng 10 n\u0103m
+    2008"
+  answerD: "Windows XP l\xE0 h\u1EC7 \u0111i\u1EC1u h\xE0nh \u0111\u01A1n nhi\u1EC7m
+    m\u1ED9t ng\u01B0\u1EDDi d\xF9ng"
   correctAnswer: 0

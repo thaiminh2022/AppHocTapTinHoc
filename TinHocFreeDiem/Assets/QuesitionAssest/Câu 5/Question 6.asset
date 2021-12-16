@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 6
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "H\xE3y ch\u1ECDn ph\u01B0\u01A1ng \xE1n gh\xE9p \u0111\xFAng nh\u1EA5t.
+    Ch\u01B0\u01A1ng tr\xECnh d\u1ECBch l\xE0 ch\u01B0\u01A1ng tr\xECnh?."
+  answerA: "Chuy\u1EC3n \u0111\u1ED5i ng\xF4n ng\u1EEF m\xE1y sang ng\xF4n ng\u1EEF
+    l\u1EADp tr\xECnh b\u1EADc cao"
+  answerB: "Chuy\u1EC3n \u0111\u1ED5i ch\u01B0\u01A1ng tr\xECnh vi\u1EBFt b\u1EB1ng
+    h\u1EE3p ng\u1EEF ho\u1EB7c ng\xF4n ng\u1EEF l\u1EADp tr\xECnh b\u1EADc cao sang
+    ng\xF4n ng\u1EEF m\xE1y."
+  answerC: "Chuy\u1EC3n \u0111\u1ED5i h\u1EE3p ng\u1EEF sang ng\xF4n ng\u1EEF l\u1EADp
+    tr\xECnh b\u1EADc cao."
+  answerD: "Chuy\u1EC3n \u0111\u1ED5i ng\xF4n ng\u1EEF m\xE1y sang h\u1EE3p ng\u1EEF."
+  correctAnswer: 1

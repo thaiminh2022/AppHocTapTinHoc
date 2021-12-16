@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f01ccc27da3a534981a89bff2b74acb, type: 3}
   m_Name: Question 5
   m_EditorClassIdentifier: 
-  question: 
-  answerA: 
-  answerB: 
-  answerC: 
-  answerD: 
-  correctAnswer: 0
+  question: "Theo em h\u1EC7 \u0111i\u1EC1u h\xE0nh n\xE0o \u0111ang \u0111\u01B0\u1EE3c
+    s\u1EED d\u1EE5ng nhi\u1EC1u nh\u1EA5t \u1EDF Vi\u1EC7t Nam?"
+  answerA: UNIX
+  answerB: LINUX
+  answerC: WINDOWS
+  answerD: MS - DOS
+  correctAnswer: 2

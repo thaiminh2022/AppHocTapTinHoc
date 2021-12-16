@@ -28,11 +28,11 @@ public class UiUtilities : MonoBehaviour
     }
     public void RestartScreen()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Loader.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void SwitchScene(string name)
     {
-        SceneManager.LoadScene(name);
+        Loader.LoadScene(name);
     }
     public void SwitchScene(int index)
     {
