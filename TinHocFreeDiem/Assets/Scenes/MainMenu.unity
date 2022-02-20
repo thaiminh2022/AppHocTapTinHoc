@@ -408,7 +408,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "30 NG\u1EAAU NHI\xCAN"
+  m_text: "T\u1EA4T C\u1EA2 (KH\xD4NG \u1ED4N \u0110\u1ECANH)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5a8cade3e5cc1d9408e128160f4dc720, type: 2}
   m_sharedMaterial: {fileID: 8539293481078604522, guid: 5a8cade3e5cc1d9408e128160f4dc720, type: 2}
@@ -5325,11 +5325,11 @@ MonoBehaviour:
     hours: 17
     minutes: 0
     second: 0
-  - message: "\u0102n chi\u1EC1u \u0111i n\xE0o"
+  - message: "\u0110I T\u1EAEM CH\u01AFA :> ?"
     hours: 18
     minutes: 0
     second: 0
-  - message: "\u0102n chi\u1EC1u \u0111i n\xE0o"
+  - message: "\xD4N B\xC0I TIME !!"
     hours: 19
     minutes: 0
     second: 0
