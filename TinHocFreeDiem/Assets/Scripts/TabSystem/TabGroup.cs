@@ -35,7 +35,7 @@ public class TabGroup : MonoBehaviour
         if (selectedTab != null && tabButton == selectedTab)
             return;
 
-        tabButton.backgroundImage.color = tabHover;
+        tabButton.representImage.color = tabHover;
 
     }
     public void OnTabExit(TabButton tabButton)
@@ -50,14 +50,13 @@ public class TabGroup : MonoBehaviour
             selectedTab.Deselect();
         }
 
-
         selectedTab = tabButton;
 
         selectedTab.Select();
 
         ResetTabs();
 
-        tabButton.backgroundImage.color = tabSelected;
+        tabButton.representImage.color = tabSelected;
         int index = tabButton.transform.GetSiblingIndex();
 
         for (int i = 0; i < objectsToSwap.Count; i++)
@@ -80,7 +79,7 @@ public class TabGroup : MonoBehaviour
             if (selectedTab != null && button == selectedTab)
                 continue;
 
-            button.backgroundImage.color = tabIdle;
+            button.representImage.color = tabIdle;
         }
     }
 }

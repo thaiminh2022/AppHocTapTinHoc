@@ -12,13 +12,27 @@ public class TabButton : MonoBehaviour, IPointerEnterHandler, IPointerClickHandl
 
     public Image backgroundImage;
 
+    [Header("Selected Images")]
+    public bool useSelectImages = false;
+    public Sprite selectedSprite;
+    private Sprite defaultSprite;
+    public Image representImage;
+
+
+    [Header("Events")]
     public UnityEvent OnTabSelected;
     public UnityEvent OnTabDeselected;
 
     private void Start()
     {
         backgroundImage = GetComponent<Image>();
+
+        defaultSprite = representImage.sprite;
         tabGroup.Subscribe(this);
+
+        //subscribe to two events
+        OnTabSelected.AddListener(SwapImageWhenSelected);
+        OnTabDeselected.AddListener(SwapImageWhenDeselected);
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -44,5 +58,22 @@ public class TabButton : MonoBehaviour, IPointerEnterHandler, IPointerClickHandl
     public void Deselect()
     {
         OnTabDeselected?.Invoke();
+    }
+
+    private void SwapImageWhenSelected()
+    {
+        //Swap the image when selected
+        if (useSelectImages)
+        {
+            representImage.sprite = selectedSprite;
+        }
+    }
+    private void SwapImageWhenDeselected()
+    {
+        //Swap the image when deselected
+        if (useSelectImages)
+        {
+            representImage.sprite = defaultSprite;
+        }
     }
 }
